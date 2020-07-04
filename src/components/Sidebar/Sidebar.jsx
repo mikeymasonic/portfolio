@@ -13,20 +13,20 @@ const Sidebar = () => {
             <br />
             Michael Romay
             <li>-human from right now</li>
-            <li>-tech enthusiast</li>
+            <li>-tech enthusiast/futurist</li>
             <li>-software and audio engineer</li>
             <li>-makes music and immersive art</li>
-            <li>-lives in Portland, Oregon</li>
+            <li>-lives in portland, oregon</li>
           </ul>
         </section>
 
         <section>
-          <h3>LEARN STUFF (FOR FREE!)</h3>
+          <h3>LEARN STUFF</h3>
           <hr />
           <br />
           <section className={styles.Learn}>
-            I am offering free lessons / conversations / consultations /
-            mentoring / time / support to creative humans, locally or remotely.
+            I am offering free lessons / consultations / mentoring / time /
+            support to creative humans, locally or remotely.
             <Link className={styles.navLink} to="/learn">
               Hit me up!
             </Link>

@@ -9,6 +9,7 @@ import Installations from '../Installations/Installations';
 import Projects from '../Projects/Projects';
 import Media from '../Media/Media';
 import Contact from '../Contact/Contact';
+import Learn from '../Learn/Learn';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/media" component={Media} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/learn" component={Learn} />
       </Switch>
     </BrowserRouter>
   );

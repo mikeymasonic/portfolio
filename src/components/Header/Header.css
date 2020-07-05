@@ -20,18 +20,27 @@
   }
 }
 
+html {
+  overflow-y: scroll;
+}
+
 .Header {
-  height: 25%;
-  background-color: red;
+  display: inline-flex;
+  justify-content: right;
+  width: auto;
+  position: fixed;
+  top: 0;
+
+  .navBar {
+    margin-top: 0.5%;
+  }
 
   .icons {
-    display: inline-flex;
-    justify-content: right;
-    width: auto;
+    margin-top: 5%;
     max-width: 1.5rem;
   }
 
   .Logo img {
-    width: 30%;
+    width: 60%;
   }
 }

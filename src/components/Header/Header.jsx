@@ -14,6 +14,29 @@ const Header = () => {
           <img src={logo} />
         </Link>
 
+        <nav className={styles.navBar}>
+          <Link className={styles.navLink} to="/">
+            _BIO
+          </Link>
+          <Link className={styles.navLink} to="/apps">
+            _APPS
+          </Link>
+          <Link className={styles.navLink} to="/hardware">
+            _HARDWARE
+          </Link>
+          <Link className={styles.navLink} to="/installations">
+            _INSTALLATIONS
+          </Link>
+          <Link className={styles.navLink} to="/projects">
+            _PROJECTS
+          </Link>
+          <Link className={styles.navLink} to="/media">
+            _MEDIA
+          </Link>
+          <Link className={styles.navLink} to="/contact">
+            _CONTACT
+          </Link>
+        </nav>
         <section className={styles.links}>
           <a
             href="https://github.com/mikeymasonic"
@@ -46,30 +69,6 @@ const Header = () => {
             ></img>
           </a>
         </section>
-
-        <nav className={styles.navbar}>
-          <Link className={styles.navLink} to="/">
-            _BIO
-          </Link>
-          <Link className={styles.navLink} to="/apps">
-            _APPS
-          </Link>
-          <Link className={styles.navLink} to="/hardware">
-            _HARDWARE
-          </Link>
-          <Link className={styles.navLink} to="/installations">
-            _INSTALLATIONS
-          </Link>
-          <Link className={styles.navLink} to="/projects">
-            _PROJECTS
-          </Link>
-          <Link className={styles.navLink} to="/media">
-            _MEDIA
-          </Link>
-          <Link className={styles.navLink} to="/contact">
-            _CONTACT
-          </Link>
-        </nav>
       </header>
     </>
   );

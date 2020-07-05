@@ -1,0 +1,12 @@
+.Bio {
+  margin-right: 25%;
+  .Image {
+    display: flex;
+    justify-content: center;
+
+    width: auto;
+  }
+  img {
+    width: 25%;
+  }
+}

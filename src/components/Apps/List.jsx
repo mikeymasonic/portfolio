@@ -25,11 +25,20 @@ const List = ({
       site
     </a>
 
-    <AwesomeSlider scssModule={AwesomeSliderStyles}>
-      <div data-src="assets/images/apps/alcherithm1.png" />
-      <div data-src="assets/images/apps/alcherithm2.png" />
-      <div data-src="assets/images/apps/artistsearch1.png" />
-    </AwesomeSlider>
+    {!image3 && (
+      <AwesomeSlider scssModule={AwesomeSliderStyles}>
+        <div data-src={image1} />
+        <div data-src={image2} />
+      </AwesomeSlider>
+    )}
+
+    {image3 && (
+      <AwesomeSlider scssModule={AwesomeSliderStyles}>
+        <div data-src={image1} />
+        <div data-src={image2} />
+        <div data-src={image3} />
+      </AwesomeSlider>
+    )}
   </section>
 );
 

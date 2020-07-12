@@ -5,7 +5,7 @@ const Installations = () => {
   return (
     <>
       <section className={styles.Installations}>
-        <h1>Installations</h1>
+        <h1>_INSTALLATIONS</h1>
       </section>
     </>
   );

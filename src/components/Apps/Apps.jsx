@@ -1,11 +1,11 @@
 import React from 'react';
 import { applications } from '../../data/data';
-import List from './List';
+import AppsList from './AppsList';
 import styles from './Apps.css';
 
 const Apps = () => {
   const appNodes = applications.map((application) => {
-    return <List key={application.name} {...application} />;
+    return <AppsList key={application.name} {...application} />;
   });
   return (
     <>

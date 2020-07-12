@@ -49,7 +49,7 @@ export const applications = [
     description:
       'A compilation of organizations seeking financial assistance to support their communities through COVID-19. The COVID-19 Aid Funds site is designed to help donors with a little extra income support groups or sectors likely to suffer significant financial consequences because of the COVID-19 pandemic and its necessary mitigation measures. This is a crowd-sourced list.  This site was created over a weekend with a small team of developers.  I was largely responsible for the backend and SQL database',
     github: 'https://github.com/covid-19-relief',
-    site: 'https://music-search-thing.netlify.app/',
+    site: 'https://www.covid19aidfunds.org/',
     image1: 'assets/images/apps/covid1.png',
     image2: 'assets/images/apps/covid2.png',
   },
@@ -70,7 +70,7 @@ export const applications = [
     name: 'chrysalSynth',
     stack: 'JavaScript | HTML | CSS',
     description:
-      'Our first attempted at a browser-based musical instrument.  It can be controlled using a computer keyboard or a MIDI controller. Made with the Web Audio API and written completely in vanilla JavaScript. I championed the project and wrote basics to get the synth to function, implemented MIDI, created the oscilloscope, and wrote algorithms for some basic effects.  This app has been deprecated and improved exponentially by whateverSynth.',
+      'Our first attempt at a browser-based musical instrument.  It can be controlled using a computer keyboard or a MIDI controller. Made with the Web Audio API and written completely in vanilla JavaScript. I championed the project and wrote basics to get the synth to function, implemented MIDI, created the oscilloscope, and wrote algorithms for some basic effects.  This app has been deprecated and improved exponentially by whateverSynth.',
     github: 'https://github.com/chrysalSynth',
     site: 'https://chrysalsynth.github.io/chrysalSynth',
     image1: 'assets/images/apps/chrysalsynth1.png',

@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './AppsList.css';
 import AwesomeSlider from 'react-awesome-slider';
-
 import AwesomeSliderStyles from '../../styles/styles.scss';
 
-const List = ({
+const AppsList = ({
   name,
   stack,
   description,
@@ -14,16 +14,18 @@ const List = ({
   image2,
   image3,
 }) => (
-  <section>
-    <h3>{name}</h3>
-    <h4>{stack}</h4>
+  <section className={styles.AppsList}>
+    <h2 className={styles.AppName}>{name}</h2>
+    <p className={styles.Stack}>{stack}</p>
+    <section className={styles.Links}>
+      <a href={github} target="_blank" rel="noopener noreferrer">
+        | github |
+      </a>
+      <a href={site} target="_blank" rel="noopener noreferrer">
+        | site |
+      </a>
+    </section>
     <p>{description}</p>
-    <a href={github} target="_blank" rel="noopener noreferrer">
-      github
-    </a>
-    <a href={site} target="_blank" rel="noopener noreferrer">
-      site
-    </a>
 
     {!image3 && (
       <AwesomeSlider scssModule={AwesomeSliderStyles}>
@@ -42,7 +44,7 @@ const List = ({
   </section>
 );
 
-List.propTypes = {
+AppsList.propTypes = {
   name: PropTypes.string.isRequired,
   stack: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
@@ -53,4 +55,4 @@ List.propTypes = {
   image3: PropTypes.string,
 };
 
-export default List;
+export default AppsList;

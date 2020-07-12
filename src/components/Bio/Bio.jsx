@@ -1,18 +1,12 @@
 import React from 'react';
 import { bio } from '../../data/data';
 import styles from './Bio.css';
-// import BioImage from '../../assets/images/michaelRomayBio.jpg';
 
 const Bio = () => {
-  // const clickThing = () => {
-  //   const thing = document.getElementById(styles.biopic2);
-  //   thing.style.display = 'block';
-  // };
-
   let last_known_scroll_position = 0;
   let ticking = false;
 
-  function doSomething(scroll_pos) {
+  function imageChanger(scroll_pos) {
     const thing1 = document.getElementById(styles.biopic1);
     const thing2 = document.getElementById(styles.biopic2);
     const thing3 = document.getElementById(styles.biopic3);
@@ -71,12 +65,13 @@ const Bio = () => {
 
     if (!ticking) {
       window.requestAnimationFrame(function () {
-        doSomething(last_known_scroll_position);
+        imageChanger(last_known_scroll_position);
         ticking = false;
       });
       ticking = true;
     }
   });
+
   return (
     <>
       <section className={styles.Bio}>

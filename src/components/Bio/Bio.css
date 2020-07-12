@@ -1,14 +1,77 @@
 .Bio {
-  margin-right: 25%;
+  margin-right: 49%;
   margin-top: 7%;
   width: 70%;
-  .Image {
+
+  .Content {
     display: flex;
     justify-content: center;
-
-    width: auto;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    border: 1px dashed #d3455b;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
   }
+
   img {
-    width: 40%;
+    width: 70%;
+    border-radius: 100%;
+  }
+
+  #biopic1 {
+    display: block;
+    margin: auto;
+  }
+
+  #biopic2 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic3 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic4 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic5 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic6 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic7 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic8 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic9 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic10 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic11 {
+    display: none;
+    margin: auto;
   }
 }

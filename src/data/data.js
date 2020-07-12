@@ -78,7 +78,7 @@ export const applications = [
   },
 ];
 
-export const about = {
+export const bio = {
   bio:
     'I am a human and software engineer with many passions closely related in technology and its relation to the human experience as conveyed through visual / sound installation art and well designed software applications. I have been in IT for the past decade operating a computer repair company called OMG Computer, supporting small businesses here in Portland.  In the last few years, I have worked on immersive digital, visual, and sound art installations at galleries and community spaces in the area.  I love to experiment with sensors, micro-controllers, multi-channel audio, and implement solid code to tie everything together.  This has really pushed my love and devotion of what tech can be and how it can make you feel all while trying to bridge the intersection of technology with other creative arts.',
 };

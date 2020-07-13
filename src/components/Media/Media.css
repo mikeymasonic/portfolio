@@ -2,13 +2,18 @@
   margin-right: 25%;
   margin-top: 8%;
   width: 75%;
-  .Image {
-    display: flex;
-    justify-content: center;
 
-    width: auto;
+  .Content {
+    border: 1px dashed #d3455b;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
   }
-  img {
-    width: 25%;
+
+  .Links {
+    display: flex;
+    text-align: right;
+    margin: auto;
+    flex-direction: column;
   }
 }

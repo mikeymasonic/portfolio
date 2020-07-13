@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { contact } from '../../data/data';
 import githubIcon from '../../assets/images/Github-Icon.png';
 import linkedInIcon from '../../assets/images/linked.png';
 import instagramIcon from '../../assets/images/insta.png';
@@ -38,18 +39,10 @@ const Header = () => {
           </Link>
         </nav>
         <section className={styles.links}>
-          <a
-            href="https://github.com/mikeymasonic"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={contact.github} target="_blank" rel="noopener noreferrer">
             <img src={githubIcon} alt="github-icon" className={styles.icons} />
           </a>
-          <a
-            href="https://www.linkedin.com/in/michaelromay/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={contact.linkedIn} target="_blank" rel="noopener noreferrer">
             <img
               src={linkedInIcon}
               alt="linkedin-icon"
@@ -57,11 +50,7 @@ const Header = () => {
             ></img>
           </a>
 
-          <a
-            href="https://www.instagram.com/mikeymasonic/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={contact.instagram} target="_blank" rel="noopener noreferrer">
             <img
               src={instagramIcon}
               alt="instagram-icon"

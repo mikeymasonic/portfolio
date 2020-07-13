@@ -83,6 +83,15 @@ export const bio = {
     'Human and software engineer with many passions rooted in technology and its relation to the human experience as conveyed through visual / sound installations and as well in thoughtfully designed software applications.   I create immersive digital, visual, and sound art which is displayed in various galleries and community spaces.  I experiment with sensors, micro-controllers, multi-channel audio, and implement code to tie everything together.  This pushes my love and devotion of what tech can be and how it can make you feel all while trying to bridge the intersection of technology with creative arts.',
 };
 
+export const contact = {
+  email: 'hi@michaelromay.dev',
+  github: 'https://github.com/mikeymasonic',
+  linkedIn: 'https://www.linkedin.com/in/michaelromay/',
+  instagram: 'https://www.instagram.com/mikeymasonic/',
+  whateverSpace: 'http://www.whateverSpace.org',
+  resume: 'assets/resume/michaelRomayResume.pdf',
+};
+
 export const installationsData = [
   {
     name: 'project0',

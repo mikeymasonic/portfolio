@@ -44,4 +44,21 @@ html {
   .Logo img {
     width: 60%;
   }
+
+  .linksTop {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10%;
+  }
+
+  .linksBottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10%;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -53,7 +53,6 @@ const InstallationsList = ({
         <h4 className={styles.Date}>
           {date} - {location}
         </h4>
-        {/* <h4 className={styles.Location}>{location}</h4> */}
       </section>
       <section className={styles.Links}>
         <a href={github} target="_blank" rel="noopener noreferrer">

@@ -4,10 +4,9 @@
   width: 75%;
 
   .Content {
-    border: 1px dashed #d3455b;
-    border-radius: 1rem;
-    margin: 1rem;
-    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 
   .Links {
@@ -15,5 +14,10 @@
     text-align: right;
     margin: auto;
     flex-direction: column;
+  }
+
+  .Bands {
+    margin-left: 5%;
+    margin-bottom: -1%;
   }
 }

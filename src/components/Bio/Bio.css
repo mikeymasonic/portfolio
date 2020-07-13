@@ -1,0 +1,77 @@
+.Bio {
+  margin-right: 49%;
+  margin-top: 8%;
+  width: 75%;
+
+  .Content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    border: 1px dashed #d3455b;
+    border-radius: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  img {
+    width: 70%;
+    border-radius: 100%;
+  }
+
+  #biopic1 {
+    display: block;
+    margin: auto;
+  }
+
+  #biopic2 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic3 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic4 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic5 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic6 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic7 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic8 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic9 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic10 {
+    display: none;
+    margin: auto;
+  }
+
+  #biopic11 {
+    display: none;
+    margin: auto;
+  }
+}

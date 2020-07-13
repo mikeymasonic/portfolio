@@ -1,31 +1,32 @@
 import React from 'react';
-import styles from './App.css';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Header from '../Header/Header';
+import Sidebar from '../Sidebar/Sidebar';
+import Bio from '../Bio/Bio';
+import Apps from '../Apps/Apps';
+import Hardware from '../Hardware/Hardware';
+import Installations from '../Installations/Installations';
+import Projects from '../Projects/Projects';
+import Media from '../Media/Media';
+import Contact from '../Contact/Contact';
+import Learn from '../Learn/Learn';
 
 function App() {
   return (
-    <div className={styles.App}>
-      <h1 className={styles.rainbowText}>mikey's cool dev site</h1>
-      <img src="https://vernsworld.neocities.org/under_construction_graphic.gif" />
-      <br></br>
-      <a
-        href="http://github.com/mikeymasonic"
-        rel="noopener noreferrer nofollow"
-        target="_blank"
-      >
-        github
-      </a>
-      <br></br>
-      <a
-        href="https://www.linkedin.com/in/michaelromay/"
-        rel="noopener noreferrer nofollow"
-        target="_blank"
-      >
-        linked-in
-      </a>
-      <br></br>
-      <a href="mailto:hi@michaelromay.dev">hi@michaelromay.dev</a>
-      <br></br>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Sidebar />
+      <Switch>
+        <Route exact path="/" component={Bio} />
+        <Route exact path="/apps" component={Apps} />
+        <Route exact path="/hardware" component={Hardware} />
+        <Route exact path="/installations" component={Installations} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/media" component={Media} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/learn" component={Learn} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

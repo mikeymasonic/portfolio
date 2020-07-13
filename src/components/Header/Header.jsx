@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import githubIcon from '../../assets/images/Github-Icon.png';
-import linkedInIcon from '../../assets/images/LinkedIn-Icon.png';
-import instagramIcon from '../../assets/images/instagram.jpg';
+import linkedInIcon from '../../assets/images/linked.png';
+import instagramIcon from '../../assets/images/insta.png';
 import styles from './Header.css';
 import logo from '../../assets/images/logo.png';
 

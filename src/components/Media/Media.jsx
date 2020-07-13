@@ -5,7 +5,7 @@ const Media = () => {
   return (
     <>
       <section className={styles.Media}>
-        <h1>Media</h1>
+        <h1>_MEDIA</h1>
       </section>
     </>
   );

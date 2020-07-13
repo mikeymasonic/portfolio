@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './InstallationsList.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from '../../styles/styles.scss';
 
@@ -46,10 +47,10 @@ const InstallationsList = ({
   // });
 
   return (
-    <section>
-      <h2>{name}</h2>
-      <h4>{date}</h4>
-      <h4>{location}</h4>
+    <section className={styles.InstallationsList}>
+      <h2 className={styles.Name}>{name}</h2>
+      <h4 className={styles.Date}>{date}</h4>
+      <h4 className={styles.Location}>{location}</h4>
       <section>
         <a href={github} target="_blank" rel="noopener noreferrer">
           | github |
@@ -59,30 +60,31 @@ const InstallationsList = ({
       <AwesomeSlider scssModule={AwesomeSliderStyles}>
         {imageNodes}
       </AwesomeSlider>
+      <section className={styles.Video}>
+        {youTubeVideos && (
+          <iframe
+            key={youTubeVideos}
+            width="560"
+            height="315"
+            src={`https://www.youtube.com/embed/${youTubeVideos}`}
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        )}
 
-      {youTubeVideos && (
-        <iframe
-          key={youTubeVideos}
-          width="560"
-          height="315"
-          src={`https://www.youtube.com/embed/${youTubeVideos}`}
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      )}
-
-      {vimeoVideos && (
-        <iframe
-          key={vimeoVideos}
-          src={`https://player.vimeo.com/video/${vimeoVideos}`}
-          width="640"
-          height="360"
-          frameBorder="0"
-          allow="autoplay; fullscreen"
-          allowFullScreen
-        ></iframe>
-      )}
+        {vimeoVideos && (
+          <iframe
+            key={vimeoVideos}
+            src={`https://player.vimeo.com/video/${vimeoVideos}`}
+            width="640"
+            height="360"
+            frameBorder="0"
+            allow="autoplay; fullscreen"
+            allowFullScreen
+          ></iframe>
+        )}
+      </section>
 
       {/* {youTubeVideos && { youTubeNodes }} */}
       {/* {youTubeNodes} */}

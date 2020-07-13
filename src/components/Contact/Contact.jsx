@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <>
       <section className={styles.Contact}>
-        <h1>Contact</h1>
+        <h1>_CONTACT</h1>
       </section>
     </>
   );

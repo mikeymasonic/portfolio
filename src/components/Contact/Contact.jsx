@@ -17,9 +17,15 @@ const Contact = () => {
             >
               email
             </a>
+
             <a href={contact.github} target="_blank" rel="noopener noreferrer">
               github
             </a>
+
+            <a href={contact.resume} target="_blank" rel="noopener noreferrer">
+              resume
+            </a>
+
             <a
               href={contact.linkedIn}
               target="_blank"

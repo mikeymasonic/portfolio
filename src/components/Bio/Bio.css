@@ -9,69 +9,23 @@
     text-align: center;
     margin: auto;
     flex-direction: column;
-    border: 1px dashed #d3455b;
-    border-radius: 1rem;
+
     margin: 1rem;
     padding: 1rem;
+    width: 70%;
   }
 
   img {
-    width: 70%;
+    width: 90%;
+    border: 2px solid #293845;
     border-radius: 100%;
   }
 
-  #biopic1 {
-    display: block;
+  .ImgText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
     margin: auto;
-  }
-
-  #biopic2 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic3 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic4 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic5 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic6 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic7 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic8 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic9 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic10 {
-    display: none;
-    margin: auto;
-  }
-
-  #biopic11 {
-    display: none;
-    margin: auto;
+    flex-direction: row;
   }
 }

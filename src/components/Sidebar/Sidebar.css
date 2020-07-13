@@ -5,8 +5,12 @@
   z-index: 1;
   right: 0;
   overflow-x: hidden;
-
   margin-right: 10px;
+
+  .Name {
+    font-weight: bold;
+    color: #d3455b;
+  }
 
   hr {
     margin-top: -1rem;

@@ -8,13 +8,14 @@ const Sidebar = () => {
       <section className={styles.Sidebar}>
         <section>
           <h3>ABOUT</h3>
+
           <hr />
           <ul>
             <br />
-            Michael Romay
+            <section className={styles.Name}>Michael Romay</section>
             <li>-human from right now</li>
             <li>-tech enthusiast/futurist</li>
-            <li>-software and audio engineer</li>
+            <li>-software engineer</li>
             <li>-makes music and immersive art</li>
             <li>-lives in portland, oregon</li>
           </ul>

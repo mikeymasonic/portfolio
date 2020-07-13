@@ -16,15 +16,18 @@ const AppsList = ({
 }) => (
   <section className={styles.AppsList}>
     <h2 className={styles.AppName}>{name}</h2>
+
     <p className={styles.Stack}>{stack}</p>
     <section className={styles.Links}>
       <a href={github} target="_blank" rel="noopener noreferrer">
-        | github |
+        github
       </a>
+      /
       <a href={site} target="_blank" rel="noopener noreferrer">
-        | site |
+        site
       </a>
     </section>
+
     <p>{description}</p>
 
     {!image3 && (

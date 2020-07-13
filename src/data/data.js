@@ -80,13 +80,13 @@ export const applications = [
 
 export const bio = {
   bio:
-    'I am a human and software engineer with many passions closely related in technology and its relation to the human experience as conveyed through visual / sound installation art and in well designed software applications.   I create immersive digital, visual, and sound art installations which are displayed at galleries and community spaces in the area.  I experiment with sensors, micro-controllers, multi-channel audio, and implement solid code to tie everything together.  This pushes my love and devotion of what tech can be and how it can make you feel all while trying to bridge the intersection of technology with creative arts.',
+    'Human and software engineer with many passions rooted in technology and its relation to the human experience as conveyed through visual / sound installations and as well in thoughtfully designed software applications.   I create immersive digital, visual, and sound art which is displayed in various galleries and community spaces.  I experiment with sensors, micro-controllers, multi-channel audio, and implement code to tie everything together.  This pushes my love and devotion of what tech can be and how it can make you feel all while trying to bridge the intersection of technology with creative arts.',
 };
 
 export const installationsData = [
   {
     name: 'project0',
-    date: 'june 9th and 10th 2018',
+    date: 'June 9th, 10th 2018',
     location: 'Disjecta - Portland, OR',
     description:
       'project 0 involved melding together various technologies to achieve a unique user experience where users can interact with micocontrollers both inside and outside of the dome, which would then wirelessly transmit data back to a several computers to control 28 interior speakers within the dome and various projections around the dome using processing, max, mad mapper and unity gain.',
@@ -114,7 +114,7 @@ export const installationsData = [
   },
   {
     name: 'Body-Image Ltd.',
-    date: 'june 15th 2019',
+    date: 'June 15th 2019',
     location: 'PICA - Portland, OR',
     description:
       "Body-Image Ltd. was an installation created by creative capstone students from PCC @ PICA june 15th 2019.  Lots of ideas were implemented and a lot of technology was used to pull the event off.  Some of this tech includes, Processing, MaxMSP, IR sensors, Kinects, Raspberry Pi Zeros, piezo mics, webcams, capacitive touch sensors, and Unity Gain - a 32 channel speaker array.  We had multiple stations setup. We wanted to create a sense of unease with technology that was presented in a casual, light setting.  It was blatantly obvious that you were being watched and everything you said was being recorded.  The featured station was multiple plastic bodies that we had acquired from an old tuxedo shop that had balloons attached to them with projectors mapped over the bodies and the balloons.  Guests could text message pictures and have them appear on the bodies.  We also had various bodies setup throughout the installation that had microphones embedded into them.  The microphones were connected to Raspberry Pi Zeros where they'd process the audio and then send the transcribed audio up to our balloon 'cloud'.  The station I created was something I called a motion portal.  It used webcams to track your movement and translate your movements into synthesizer tones that was then fed into a reverb algorithm.  Visual data was then taken and processed through a customized MaxMSP patch that was setup to add and remove visual effects at random creating a motion blur effect and various glitches and colors.",
@@ -142,7 +142,7 @@ export const installationsData = [
   },
   {
     name: 'theWave - the conversation - 32.2 channel set',
-    date: 'september 11th 2019',
+    date: 'September 11th 2019',
     location: 'Disjecta - Portland, OR',
     description:
       "theWave was a showcase of artists who did a residency at PCC over the summer of 2019 where they worked directly with the Interactivity Department's multichannel speaker array Unity Gain.  I created a patch Max MSP and performed it live using a multi-slider midi controller, a hand built expression joystick, and various samples I collected over the years which included multiple conversations I had been apart of.  I titled the piece ' the conversation'.  I used VBAP panners and split the conversations into various parts of the room so guests could walk around and listen in to conversations, but if they were in the middle of the room it would sound like a busy room.  I then integrated various multichannel delays, reverbs, and sample holds to give the guests a feeling of unease.  Some of the conversations were friendly and some of them were on dark subject matters such as finding a human body during search and rescue.  This was an incredibly rewarding experience that I am very thankful to have been a part of.",
@@ -170,7 +170,7 @@ export const installationsData = [
   },
   {
     name: "he was once somebody's baby boy - quadraphonic set",
-    date: 'july 13th 2019',
+    date: 'July 13th 2019',
     location: 'S1 - Portland, OR',
     description:
       "this was a showcase of local BIPOC artists held at S1 in Portland, OR.  I created a composition called 'he used to be somebody's baby'. This title is inspired from a film titled 'the conversation' that was released in 1974.  This dialog has always stuck with me since first seeing the film years ago, I personally feel connected to it from my own experience growing up as 'somebody's baby boy' and being so far removed from that at this point in my life.  Here's a quote from the film: <blockquote> Oh, God. Every time I see one of those old guys...  I always think the same thing. What do you think?  I always think...that he was once somebody's baby boy.  Really, I do.  I think he was once somebody's baby boy...  and he had a mother and a father who loved him...  and now there he is...  half dead on a park bench...  and where are his mother or his father... all his uncles now?  Anyway, that's what I always think.<blockquote>  I used Max MSP outputting to four speakers in each corner of the room, lots of samples, a guitar rig with effects, a synth rig with effects, a roland SPDx, lots of DMX controlled lights, an accompanying video projections.  Everything was routed into an 8 channel interface, processed and sent back out to the two amplifiers I had setup and the 4 speakers in the room.  VBAP panners were used to put all the various instruments in different parts of the room.  I was able to manually set placements of things in three dimensions, alternatively I created a randomizer in my patch that could smoothly move around instruments/samples.  I setup a crossover to filter everything under 60hz to the 4 subwoofers they had on location and had a dedicated midi slider just for bass that I used as an instrument.  I was told that I was shaking the entire building and that you could physically feel the vibrations internally which I was really excited to hear.  This lead me down the path of making more music that you feel, not just hear.",

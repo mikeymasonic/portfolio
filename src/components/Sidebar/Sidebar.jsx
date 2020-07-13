@@ -7,12 +7,12 @@ const Sidebar = () => {
     <>
       <section className={styles.Sidebar}>
         <section>
-          <h3>ABOUT</h3>
+          <h3>_ABOUT</h3>
 
           <hr />
           <ul>
             <br />
-            <section className={styles.Name}>Michael Romay</section>
+            <section className={styles.Name}> &nbsp;michael romay</section>
             <li>-human from right now</li>
             <li>-tech enthusiast/futurist</li>
             <li>-software engineer</li>
@@ -22,7 +22,7 @@ const Sidebar = () => {
         </section>
 
         <section>
-          <h3>LEARN STUFF</h3>
+          <h3>_LEARN_STUFF</h3>
           <hr />
           <br />
           <section className={styles.Learn}>

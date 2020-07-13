@@ -2,13 +2,4 @@
   margin-right: 25%;
   margin-top: 8%;
   width: 75%;
-  .Image {
-    display: flex;
-    justify-content: center;
-
-    width: auto;
-  }
-  img {
-    width: 25%;
-  }
 }

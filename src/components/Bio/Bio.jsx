@@ -11,9 +11,14 @@ const Bio = () => {
         <section className={styles.ImgText}>
           <GifLoader
             loading={true}
-            imageSrc="../../public/assets/images/bio/bio1.gif"
+            imageSrc="../../public/assets/images/bio/bio.gif"
             overlayBackground="rgba(0,0,0,0)"
           />
+
+          {/* <img
+            src="../../public/assets/images/bio/bio.jpg"
+            alt="picture of mikey"
+          /> */}
 
           <section className={styles.Content}>
             <p className={styles.BioText}>{bio.bio}</p>

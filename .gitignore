@@ -1,6 +1,4 @@
-node_modules
+
 .env
 dist
 .DS_Store
-/src/global/*
-!src/global/react-gif-loader/node_modules

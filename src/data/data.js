@@ -3,7 +3,7 @@ export const applications = [
     name: 'whateverSynth',
     stack: 'JavaScript | React',
     description:
-      'A in browser JavaScript/React based musical synthesizer that can be controlled using a computer keyboard, mouse, touch or a MIDI controller. Users can add effects chains in any order and share patches with other users.  Made with the Web Audio API. The app is responsive and can be used on any device that has a browser.  I created the global state provider that is used throughout the site, created basic synth playback, implemented MIDI input, and created the oscilloscope.',
+      'In browser JavaScript/React based musical synthesizer that can be controlled using a computer keyboard, mouse, touch or a MIDI controller. Users can add effects chains in any order and share patches with other users.  Made with the Web Audio API. The app is responsive and can be used on any device that has a browser.  I created the global state provider that is used throughout the site, created basic synth playback, implemented MIDI input, and created the oscilloscope.',
     github: 'https://github.com/whateverSynth',
     site: 'https://whateversynth.netlify.app/',
     image1: 'assets/images/apps/whateversynth1.png',

@@ -18,6 +18,11 @@ const Media = () => {
             music projects, bands I used to be in, and albums I engineered /
             produced.
           </p>
+          <img
+            className={styles.Pic}
+            src="../../public/assets/images/bio/bio.jpg"
+            alt="picture of mikey"
+          />
           <section className={styles.PlayerAndTitle}>
             <h4 className={styles.Current}>current projects / demos:</h4>
             <iframe

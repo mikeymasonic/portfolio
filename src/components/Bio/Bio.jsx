@@ -11,7 +11,7 @@ const Bio = () => {
         <section className={styles.ImgText}>
           <GifLoader
             loading={true}
-            imageSrc="../../public/assets/images/bio/bio.gif"
+            imageSrc="../../public/assets/images/bio/bio2.gif"
             overlayBackground="rgba(0,0,0,0)"
           />
 

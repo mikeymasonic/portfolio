@@ -2,7 +2,6 @@ const HtmlPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const Dotenv = require('dotenv-webpack');
 const CopyPlugin = require('copy-webpack-plugin');
-const path = require('path');
 
 // eslint-disable-next-line
 module.exports = {
@@ -40,22 +39,6 @@ module.exports = {
           },
         },
       },
-      // {
-      //   test: /\.jsx?$/,
-      //   exclude: /node_modules/,
-      //   include: [
-      //     path.resolve(
-      //       __dirname,
-      //       './node_modules/react-awesome-slider/src/hoc/autoplay'
-      //     ),
-      //   ],
-      //   use: {
-      //     loader: 'babel-loader',
-      //     options: {
-      //       cacheDirectory: true,
-      //     },
-      //   },
-      // },
       {
         test: /\.css$/,
         use: [
@@ -97,7 +80,7 @@ module.exports = {
       },
 
       {
-        test: /\.(jpeg|jpg|png|svg|gif)$/,
+        test: /\.(jpeg|jpg|png|svg)$/,
         use: {
           loader: 'url-loader',
           options: { limit: 1000 },

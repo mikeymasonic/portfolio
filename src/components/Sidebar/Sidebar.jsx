@@ -20,7 +20,7 @@ const Sidebar = () => {
             <li>-lives in portland, oregon</li>
           </ul>
         </section>
-        <section>
+        {/* <section>
           <h3>_LEARN_STUFF</h3>
           <hr />
           <br />
@@ -31,7 +31,7 @@ const Sidebar = () => {
               Hit me up!
             </Link>
           </section>
-        </section>
+        </section> */}
       </section>
     </>
   );

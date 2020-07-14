@@ -80,7 +80,7 @@ export const applications = [
 
 export const bio = {
   bio:
-    'Human and software engineer with many interests. One being the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programing to bring everything together.  This pushes my interest what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
+    'Human and software engineer with an interest in the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programing to bring everything together.  This pushes my interest what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
 };
 
 export const contact = {

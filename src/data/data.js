@@ -80,7 +80,7 @@ export const applications = [
 
 export const bio = {
   bio:
-    'Human and software engineer with many passions rooted in technology and its relation to the human experience as conveyed through visual / sound installations and as well in thoughtfully designed software applications.   I create immersive digital, visual, and sound art which is displayed in various galleries and community spaces.  I experiment with sensors, micro-controllers, multi-channel audio, and implement code to tie everything together.  This pushes my love and devotion of what tech can be and how it can make you feel all while trying to bridge the intersection of technology with creative arts.',
+    'Human and software engineer with many interests. One being the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programing to bring everything together.  This pushes my interest what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
 };
 
 export const contact = {
@@ -89,7 +89,8 @@ export const contact = {
   linkedIn: 'https://www.linkedin.com/in/michaelromay/',
   instagram: 'https://www.instagram.com/mikeymasonic/',
   whateverSpace: 'http://www.whateverSpace.org',
-  resume: 'assets/resume/michaelRomayResume.pdf',
+  resume:
+    'https://drive.google.com/file/d/1agFGjZ0fkHYwjlzmW4XS6kKUHOjhsh6B/view?usp=sharing',
 };
 
 export const installationsData = [
@@ -131,50 +132,40 @@ export const installationsData = [
     // vimeoVideos: ['343060247', '333452395'],
     github: 'https://github.com/pcc-capstone-2019',
     images: [
-      'assets/images/installations/project0/1.jpg',
-      'assets/images/installations/project0/2.jpg',
-      'assets/images/installations/project0/3.jpg',
-      'assets/images/installations/project0/4.jpg',
-      'assets/images/installations/project0/5.jpg',
-      'assets/images/installations/project0/6.jpg',
-      'assets/images/installations/project0/7.jpg',
-      'assets/images/installations/project0/8.jpg',
-      'assets/images/installations/project0/9.jpg',
-      'assets/images/installations/project0/10.jpg',
-      'assets/images/installations/project0/11.jpg',
-      'assets/images/installations/project0/12.jpg',
-      'assets/images/installations/project0/13.jpg',
-      'assets/images/installations/project0/14.jpg',
-      'assets/images/installations/project0/15.jpg',
-      'assets/images/installations/project0/16.jpg',
+      'assets/images/installations/bodyImageLtd/1.jpg',
+      'assets/images/installations/bodyImageLtd/2.jpg',
+      'assets/images/installations/bodyImageLtd/3.jpg',
+      'assets/images/installations/bodyImageLtd/4.jpg',
+      'assets/images/installations/bodyImageLtd/5.jpg',
+      'assets/images/installations/bodyImageLtd/6.jpg',
+      'assets/images/installations/bodyImageLtd/7.jpg',
+      'assets/images/installations/bodyImageLtd/8.jpg',
+      'assets/images/installations/bodyImageLtd/9.jpg',
+      'assets/images/installations/bodyImageLtd/10.jpg',
+      'assets/images/installations/bodyImageLtd/11.jpg',
+      'assets/images/installations/bodyImageLtd/12.png',
     ],
   },
   {
-    name: 'theWave - the conversation - 32.2 channel set',
+    name: 'theWave - conversations - 32.2 channel set',
     date: 'September 11th 2019',
     location: 'Disjecta - Portland, OR',
     description:
-      "theWave was a showcase of artists who did a residency at PCC over the summer of 2019 where they worked directly with the Interactivity Department's multichannel speaker array Unity Gain.  I created a patch Max MSP and performed it live using a multi-slider midi controller, a hand built expression joystick, and various samples I collected over the years which included multiple conversations I had been apart of.  I titled the piece ' the conversation'.  I used VBAP panners and split the conversations into various parts of the room so guests could walk around and listen in to conversations, but if they were in the middle of the room it would sound like a busy room.  I then integrated various multichannel delays, reverbs, and sample holds to give the guests a feeling of unease.  Some of the conversations were friendly and some of them were on dark subject matters such as finding a human body during search and rescue.  This was an incredibly rewarding experience that I am very thankful to have been a part of.",
+      "theWave was a showcase of artists who did a residency at PCC over the summer of 2019 where they worked directly with the Interactivity Department's multichannel speaker array Unity Gain.  I created a patch Max MSP and performed it live using a multi-slider midi controller, a hand built expression joystick, and various samples I collected over the years which included multiple conversations I had been apart of.  I titled the piece 'conversations'.  I used VBAP panners and split the conversations into various parts of the room so guests could walk around and listen in to conversations, but if they were in the middle of the room it would sound like a busy room.  I then integrated various multichannel delays, reverbs, and sample holds to give the guests a feeling of unease.  Some of the conversations were friendly and some of them were on dark subject matters such as finding a human body during search and rescue.  This was an incredibly rewarding experience that I am very thankful to have been a part of.",
     // youTubeVideos: ['DwP0MY2JERw'],
     youTubeVideos: 'DwP0MY2JERw',
     github: 'https://github.com/mikeymasonic/theWave/',
     images: [
-      'assets/images/installations/project0/1.jpg',
-      'assets/images/installations/project0/2.jpg',
-      'assets/images/installations/project0/3.jpg',
-      'assets/images/installations/project0/4.jpg',
-      'assets/images/installations/project0/5.jpg',
-      'assets/images/installations/project0/6.jpg',
-      'assets/images/installations/project0/7.jpg',
-      'assets/images/installations/project0/8.jpg',
-      'assets/images/installations/project0/9.jpg',
-      'assets/images/installations/project0/10.jpg',
-      'assets/images/installations/project0/11.jpg',
-      'assets/images/installations/project0/12.jpg',
-      'assets/images/installations/project0/13.jpg',
-      'assets/images/installations/project0/14.jpg',
-      'assets/images/installations/project0/15.jpg',
-      'assets/images/installations/project0/16.jpg',
+      'assets/images/installations/theWave/1.png',
+      'assets/images/installations/theWave/2.jpg',
+      'assets/images/installations/theWave/3.jpg',
+      'assets/images/installations/theWave/4.jpg',
+      'assets/images/installations/theWave/5.jpg',
+      'assets/images/installations/theWave/6.jpg',
+      'assets/images/installations/theWave/7.jpg',
+      'assets/images/installations/theWave/8.jpg',
+      'assets/images/installations/theWave/9.jpg',
+      'assets/images/installations/theWave/10.jpg',
     ],
   },
   {

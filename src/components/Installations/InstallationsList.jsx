@@ -49,11 +49,14 @@ const InstallationsList = ({
   return (
     <section className={styles.InstallationsList}>
       <h2 className={styles.Name}>{name}</h2>
-      <h4 className={styles.Date}>{date}</h4>
-      <h4 className={styles.Location}>{location}</h4>
-      <section>
+      <section className={styles.DateLocation}>
+        <h4 className={styles.Date}>
+          {date} - {location}
+        </h4>
+      </section>
+      <section className={styles.Links}>
         <a href={github} target="_blank" rel="noopener noreferrer">
-          | github |
+          github
         </a>
       </section>
       <p>{description}</p>

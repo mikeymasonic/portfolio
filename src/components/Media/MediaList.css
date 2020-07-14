@@ -1,0 +1,32 @@
+.MediaList {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  flex-direction: column;
+  border: 1px dashed #d3455b;
+  border-radius: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  width: 40%;
+
+  .YearsActive {
+    margin-top: -1rem;
+  }
+
+  .Members {
+    margin-top: -1rem;
+  }
+
+  .MembersText {
+    margin-top: -1rem;
+  }
+
+  .Links {
+    margin-top: -1rem;
+  }
+
+  .Video {
+    margin-top: 0.5rem;
+  }
+}

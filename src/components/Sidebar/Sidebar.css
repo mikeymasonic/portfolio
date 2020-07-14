@@ -1,3 +1,9 @@
+@media screen and (max-width: 600px) {
+  .Sidebar {
+    display: none;
+  }
+}
+
 .Sidebar {
   position: fixed;
   height: 100%;
@@ -5,8 +11,12 @@
   z-index: 1;
   right: 0;
   overflow-x: hidden;
-
   margin-right: 10px;
+
+  .Name {
+    font-weight: bold;
+    color: #d3455b;
+  }
 
   hr {
     margin-top: -1rem;

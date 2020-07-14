@@ -2,13 +2,52 @@
   margin-right: 25%;
   margin-top: 8%;
   width: 75%;
-  .Image {
-    display: flex;
-    justify-content: center;
 
-    width: auto;
+  .Top {
+    display: flex;
+    justify-content: space-between;
   }
-  img {
-    width: 25%;
+
+  .PlayerAndTitle {
+    display: flex;
+    text-align: left;
+    margin: auto;
+    flex-direction: column;
+
+    width: 45%;
+  }
+
+  .Current {
+    margin-bottom: -3%;
+    margin-left: 4%;
+  }
+
+  .Description {
+    width: 50%;
+    text-align: left;
+    margin-left: 1%;
+  }
+
+  .Content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .Links {
+    display: flex;
+    text-align: right;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .Bands {
+    margin-left: 5%;
+    margin-bottom: -1%;
+  }
+
+  .SoundcloudPlayer {
+    flex-direction: column;
+    margin: 1rem;
   }
 }

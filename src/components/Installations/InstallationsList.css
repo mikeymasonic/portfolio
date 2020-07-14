@@ -9,8 +9,8 @@
   margin: 1rem;
   padding: 1rem;
 
-  .Name {
-    color: #d3455b;
+  .DateLocation {
+    display: inline-block;
   }
 
   .Date {
@@ -22,7 +22,7 @@
   }
 
   .Links {
-    margin-top: -0.5rem;
+    margin-top: -1rem;
   }
 
   .Video {

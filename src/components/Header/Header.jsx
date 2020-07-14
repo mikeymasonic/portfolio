@@ -1,11 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { contact } from '../../data/data';
 import githubIcon from '../../assets/images/Github-Icon.png';
-// import linkedInIcon from '../../assets/images/LinkedIn-Icon.png';
 import linkedInIcon from '../../assets/images/linked.png';
-// import instagramIcon from '../../assets/images/instagram.jpg';
 import instagramIcon from '../../assets/images/insta.png';
-import mailIcon from '../../assets/images/mail.png';
 import styles from './Header.css';
 import logo from '../../assets/images/logo.png';
 
@@ -41,50 +39,24 @@ const Header = () => {
           </Link> */}
         </nav>
         <section className={styles.links}>
-          <section className={styles.linksTop}>
-            <a
-              href="https://github.com/mikeymasonic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={githubIcon}
-                alt="github-icon"
-                className={styles.icons}
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/michaelromay/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={linkedInIcon}
-                alt="linkedin-icon"
-                className={styles.icons}
-              ></img>
-            </a>
-          </section>
-          <section className={styles.linksBottom}>
-            <a
-              href="https://www.instagram.com/mikeymasonic/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src={instagramIcon}
-                alt="instagram-icon"
-                className={styles.icons}
-              ></img>
-            </a>
-            <a href="mailto:hi@michaelromay.dev">
-              <img
-                src={mailIcon}
-                alt="mail-icon"
-                className={styles.icons}
-              ></img>
-            </a>
-          </section>
+          <a href={contact.github} target="_blank" rel="noopener noreferrer">
+            <img src={githubIcon} alt="github-icon" className={styles.icons} />
+          </a>
+          <a href={contact.linkedIn} target="_blank" rel="noopener noreferrer">
+            <img
+              src={linkedInIcon}
+              alt="linkedin-icon"
+              className={styles.icons}
+            ></img>
+          </a>
+
+          <a href={contact.instagram} target="_blank" rel="noopener noreferrer">
+            <img
+              src={instagramIcon}
+              alt="instagram-icon"
+              className={styles.icons}
+            ></img>
+          </a>
         </section>
       </header>
     </>

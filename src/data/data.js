@@ -176,7 +176,7 @@ export const installationsData = [
       "this was a showcase of local BIPOC artists held at S1 in Portland, OR.  I created a composition called 'he used to be somebody's baby'. This title is inspired from a film titled 'the conversation' that was released in 1974.  This dialog has always stuck with me since first seeing the film years ago, I personally feel connected to it from my own experience growing up as 'somebody's baby boy' and being so far removed from that at this point in my life.  Here's a quote from the film: <blockquote> Oh, God. Every time I see one of those old guys...  I always think the same thing. What do you think?  I always think...that he was once somebody's baby boy.  Really, I do.  I think he was once somebody's baby boy...  and he had a mother and a father who loved him...  and now there he is...  half dead on a park bench...  and where are his mother or his father... all his uncles now?  Anyway, that's what I always think.<blockquote>  I used Max MSP outputting to four speakers in each corner of the room, lots of samples, a guitar rig with effects, a synth rig with effects, a roland SPDx, lots of DMX controlled lights, an accompanying video projections.  Everything was routed into an 8 channel interface, processed and sent back out to the two amplifiers I had setup and the 4 speakers in the room.  VBAP panners were used to put all the various instruments in different parts of the room.  I was able to manually set placements of things in three dimensions, alternatively I created a randomizer in my patch that could smoothly move around instruments/samples.  I setup a crossover to filter everything under 60hz to the 4 subwoofers they had on location and had a dedicated midi slider just for bass that I used as an instrument.  I was told that I was shaking the entire building and that you could physically feel the vibrations internally which I was really excited to hear.  This lead me down the path of making more music that you feel, not just hear.",
     // youTubeVideos: ['DwP0MY2JERw'],
     // youTubeVideos: 'DwP0MY2JERw',
-    github: 'https://github.com/mikeymasonic/theWave/',
+    github: 'https://github.com/mikeymasonic/quadset/',
     images: [
       'assets/images/installations/quad/1.jpg',
       'assets/images/installations/quad/2.jpg',
@@ -225,5 +225,20 @@ export const media = [
     description:
       'am error was a band I started with some homies back in 2005 in toledo, oh.  we were influenced by bands like Drive Like Jehu, Lightening Bolt, Q and Not U, and Brainiac.  Played a bunch of shows, toured, recorded a couple of records.  Played some shows with some decent sized bands like Enon, Planes Mistaken For Stars, Agent Orange, Misfits, and meWithoutYou.  both paul and solomon were shredders, I miss playing with these dudes everyday.',
     bandcamp: '1413157771',
+  },
+];
+
+export const recordedBands = [
+  {
+    releaseName: "on drugs - 'uchhole futah'",
+    bandcamp: '1904368087',
+  },
+  {
+    releaseName: "chain - 'cassie's chain'",
+    bandcamp: '2358433489',
+  },
+  {
+    releaseName: "loose - 'hair cut'",
+    bandcamp: '3535544007',
   },
 ];

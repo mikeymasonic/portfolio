@@ -1,11 +1,17 @@
 import React from 'react';
-import { media } from '../../data/data';
+import { media, recordedBands } from '../../data/data';
 import MediaList from './MediaList';
+import RecordedBandList from './RecordedBandList';
 import styles from './Media.css';
 
 const Media = () => {
   const mediaNodes = media.map((media) => {
     return <MediaList key={media.bandName} {...media} />;
+  });
+  const recordedBandNodes = recordedBands.map((recordedBand) => {
+    return (
+      <RecordedBandList key={recordedBand.releaseName} {...recordedBand} />
+    );
   });
   return (
     <>
@@ -30,8 +36,12 @@ const Media = () => {
             ></iframe>
           </section>
         </section>
-        <h4 className={styles.Bands}>bands I played in:</h4>
+        <h4 className={styles.Bands}>some bands I used to played in:</h4>
         <section className={styles.Content}>{mediaNodes}</section>
+        <h4 className={styles.Bands}>
+          some albums I have engineered/produced:
+        </h4>
+        <section className={styles.Content}>{recordedBandNodes}</section>
       </section>
     </>
   );

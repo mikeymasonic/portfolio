@@ -17,7 +17,7 @@ const Bio = () => {
 
           <img
             className={styles.Pic}
-            src="../../public/assets/images/bio/bio.jpg"
+            src="../../public/assets/images/bio/bio2.jpg"
             alt="picture of mikey"
           />
 

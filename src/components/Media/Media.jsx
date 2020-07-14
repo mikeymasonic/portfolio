@@ -2,6 +2,8 @@ import React from 'react';
 import { media } from '../../data/data';
 import MediaList from './MediaList';
 import styles from './Media.css';
+import bioImage from '../../../public/assets/images/bio/bio2.jpg';
+import bioImage2 from '../../assets/images/bio2.jpg';
 
 const Media = () => {
   // const style = { border: 0, width: '350px', height: '555px' };
@@ -18,11 +20,8 @@ const Media = () => {
             music projects, bands I used to be in, and albums I engineered /
             produced.
           </p>
-          <img
-            className={styles.Pic}
-            src="../../public/assets/images/bio/bio.jpg"
-            alt="picture of mikey"
-          />
+          <img className={styles.Pic} src={bioImage} alt="picture of mikey" />
+          <img className={styles.Pic} src={bioImage2} alt="picture of mikey" />
           <section className={styles.PlayerAndTitle}>
             <h4 className={styles.Current}>current projects / demos:</h4>
             <iframe

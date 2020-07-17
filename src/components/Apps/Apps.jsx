@@ -10,7 +10,7 @@ const Apps = () => {
   return (
     <>
       <section className={styles.Apps}>
-        <h1>_APPS</h1>
+        <h1 className={styles.PageName}>_APPS</h1>
         {appNodes}
       </section>
     </>

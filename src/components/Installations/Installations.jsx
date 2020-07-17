@@ -10,7 +10,7 @@ const Installations = () => {
   return (
     <>
       <section className={styles.Installations}>
-        <h1>_INSTALLATIONS</h1>
+        <h1 className={styles.PageName}>_INSTALLATIONS</h1>
         {installationNodes}
       </section>
     </>

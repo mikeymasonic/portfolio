@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import styles from './InstallationsList.css';
+import Modal from 'react-modal';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from '../../styles/styles.scss';
-import Modal from 'react-modal';
+import styles from './InstallationsList.css';
 
 //styles for modal
 const customStyles = {

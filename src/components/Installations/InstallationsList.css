@@ -27,6 +27,33 @@
     }
   }
 
+  .ImageSlider + img {
+    width: 50%;
+  }
+
+  .ImageSlider .btn {
+    width: 10%;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 20;
+  }
+
+  .ImageSlider .btn:hover {
+    background-color: black;
+  }
+
+  .Modal {
+    position: absolute;
+    z-index: 4;
+    border: 1px dashed #d3455b;
+    background-color: red;
+  }
+
   .DateLocation {
     display: inline-block;
   }

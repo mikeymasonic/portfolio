@@ -9,7 +9,7 @@ const MediaList = ({
   description,
   bandcamp,
 }) => {
-  const style = { border: 0, width: '350px', height: '555px' };
+  const style = { border: 0 };
   return (
     <section className={styles.MediaList}>
       <h2 className={styles.BandName}>{bandName}</h2>

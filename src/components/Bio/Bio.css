@@ -1,10 +1,22 @@
 .Bio {
   margin-right: 25%;
-  margin-top: 10%;
+  margin-top: 8%;
   width: 100%;
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     margin-top: 30%;
+    font-size: 0.75rem;
+
+    .PageName {
+      margin-top: 7rem;
+      margin-bottom: -0.75rem;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    margin-top: 8%;
+    font-size: 0.75rem;
+    width: 100%;
 
     .PageName {
       margin-top: 7rem;
@@ -51,7 +63,7 @@
     font-size: 1.25rem;
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 400px) {
     .Bio {
       margin-top: 10%;
     }
@@ -62,10 +74,29 @@
     }
     .BioText {
       font-size: 0.9rem;
+      margin-top: -1rem;
     }
 
     img {
       margin-top: 20%;
+    }
+  }
+
+  @media screen and (max-width: 812px) {
+    .Bio {
+      margin-top: 10%;
+    }
+    .Content {
+      width: 75%;
+      margin-top: 1.5rem;
+    }
+    .BioText {
+      font-size: 0.9rem;
+      margin-top: -2rem;
+    }
+
+    img {
+      width: 70%;
     }
   }
 }

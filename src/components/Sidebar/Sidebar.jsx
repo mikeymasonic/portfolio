@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styles from './Sidebar.css';
 
 const Sidebar = () => {
@@ -7,18 +7,19 @@ const Sidebar = () => {
     <>
       <section className={styles.Sidebar}>
         <section>
-          <h3>_ABOUT</h3>
-
+          <h3 className={styles.PageName}>_ABOUT</h3>
           <hr />
-          <ul>
-            <br />
-            <section className={styles.Name}> &nbsp;michael romay</section>
-            <li>-human from right now</li>
-            <li>-tech enthusiast/futurist</li>
-            <li>-software engineer</li>
-            <li>-makes music and immersive art</li>
-            <li>-lives in portland, oregon</li>
-          </ul>
+          <section className={styles.SidebarText}>
+            <ul>
+              <br />
+              <section className={styles.Name}> &nbsp;michael romay</section>
+              <li>-human from right now</li>
+              <li>-tech enthusiast/futurist</li>
+              <li>-software engineer</li>
+              <li>-makes music and immersive art</li>
+              <li>-lives in portland, oregon</li>
+            </ul>
+          </section>
         </section>
         {/* <section>
           <h3>_LEARN_STUFF</h3>

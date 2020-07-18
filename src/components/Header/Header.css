@@ -52,6 +52,11 @@ html {
     flex-wrap: wrap;
   }
 
+  @media screen and (max-width: 640px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   a {
     text-decoration: none;
     margin: 0.5rem;
@@ -107,6 +112,19 @@ html {
       justify-content: right;
       margin-top: 0rem;
       margin-right: 0.5%;
+      margin-bottom: 0.25rem;
     }
+
+    @media screen and (max-width: 640px) {
+      display: flex;
+      flex-direction: row;
+      justify-content: right;
+      margin-top: 0rem;
+      margin-right: 0.5%;
+      margin-bottom: 0.25rem;
+    }
+  }
+  .links img {
+    margin-bottom: -50%;
   }
 }

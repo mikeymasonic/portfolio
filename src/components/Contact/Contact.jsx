@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <section className={styles.Contact}>
-        <h1>_CONTACT</h1>
+        <h1 className={styles.PageName}>_CONTACT</h1>
 
         <section className={styles.Content}>
           <section className={styles.Links}>

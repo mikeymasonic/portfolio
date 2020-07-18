@@ -18,34 +18,6 @@ const InstallationsList = ({
     return <div key={image} data-src={image} />;
   });
 
-  // const youTubeNodes = youTubeVideos.map((youTubeVideo) => {
-  //   return (
-  //     <iframe
-  //       key={youTubeVideo}
-  //       width="560"
-  //       height="315"
-  //       src={`https://www.youtube.com/embed/${youTubeVideo}`}
-  //       frameBorder="0"
-  //       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-  //       allowFullScreen
-  //     ></iframe>
-  //   );
-  // });
-  // console.log(youTubeNodes);
-  // const vimeoNodes = vimeoVideos.map((vimeoVideo) => {
-  //   return (
-  //     <iframe
-  //       key={vimeoVideo}
-  //       src={`https://player.vimeo.com/video/${vimeoVideo}`}
-  //       width="640"
-  //       height="360"
-  //       frameBorder="0"
-  //       allow="autoplay; fullscreen"
-  //       allowFullScreen
-  //     ></iframe>
-  //   );
-  // });
-
   return (
     <section className={styles.InstallationsList}>
       <h2 className={styles.Name}>{name}</h2>
@@ -88,12 +60,6 @@ const InstallationsList = ({
           ></iframe>
         )}
       </section>
-
-      {/* {youTubeVideos && { youTubeNodes }} */}
-      {/* {youTubeNodes} */}
-
-      {/* {vimeoVideos && { vimeoNodes }} */}
-      {/* {vimeoNodes} */}
     </section>
   );
 };

@@ -10,6 +10,27 @@
   padding: 1rem;
   width: 40%;
 
+  iframe {
+    width: 350px;
+    height: 555px;
+  }
+
+  @media screen and (max-width: 400px) {
+    width: 100%;
+    iframe {
+      width: 17rem;
+      height: 17rem;
+    }
+  }
+
+  @media screen and (max-width: 812px) {
+    width: 100%;
+    iframe {
+      width: 17rem;
+      height: 17rem;
+    }
+  }
+
   .YearsActive {
     margin-top: -1rem;
   }

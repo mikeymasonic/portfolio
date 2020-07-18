@@ -100,6 +100,7 @@ export const contact = {
   linkedIn: 'https://www.linkedin.com/in/michaelromay/',
   instagram: 'https://www.instagram.com/mikeymasonic/',
   whateverSpace: 'http://www.whateverSpace.org',
+  whateverSpaceInsta: 'https://www.instagram.com/whateverSpacepdx',
   resume:
     'https://drive.google.com/file/d/1agFGjZ0fkHYwjlzmW4XS6kKUHOjhsh6B/view?usp=sharing',
 };

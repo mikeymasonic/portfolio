@@ -56,11 +56,11 @@ module.exports = /******/ (function (modules) {
     /******/ var getter =
       module && module.__esModule
         ? /******/ function getDefault() {
-            return module['default'];
-          }
+          return module['default'];
+        }
         : /******/ function getModuleExports() {
-            return module;
-          };
+          return module;
+        };
     /******/ __webpack_require__.d(getter, 'a', getter);
     /******/ return getter;
     /******/
@@ -103,7 +103,7 @@ module.exports = /******/ (function (modules) {
           } else {
             cachedSetTimeout = defaultSetTimout;
           }
-        } catch (e) {
+        } catch(e) {
           cachedSetTimeout = defaultSetTimout;
         }
         try {
@@ -112,7 +112,7 @@ module.exports = /******/ (function (modules) {
           } else {
             cachedClearTimeout = defaultClearTimeout;
           }
-        } catch (e) {
+        } catch(e) {
           cachedClearTimeout = defaultClearTimeout;
         }
       })();
@@ -132,11 +132,11 @@ module.exports = /******/ (function (modules) {
         try {
           // when when somebody has screwed with setTimeout but no I.E. maddness
           return cachedSetTimeout(fun, 0);
-        } catch (e) {
+        } catch(e) {
           try {
             // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
             return cachedSetTimeout.call(null, fun, 0);
-          } catch (e) {
+          } catch(e) {
             // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
             return cachedSetTimeout.call(this, fun, 0);
           }
@@ -158,11 +158,11 @@ module.exports = /******/ (function (modules) {
         try {
           // when when somebody has screwed with setTimeout but no I.E. maddness
           return cachedClearTimeout(marker);
-        } catch (e) {
+        } catch(e) {
           try {
             // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
             return cachedClearTimeout.call(null, marker);
-          } catch (e) {
+          } catch(e) {
             // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
             // Some versions of I.E. have different rules for clearTimeout vs setTimeout
             return cachedClearTimeout.call(this, marker);
@@ -197,10 +197,10 @@ module.exports = /******/ (function (modules) {
         draining = true;
 
         var len = queue.length;
-        while (len) {
+        while(len) {
           currentQueue = queue;
           queue = [];
-          while (++queueIndex < len) {
+          while(++queueIndex < len) {
             if (currentQueue) {
               currentQueue[queueIndex].run();
             }
@@ -216,7 +216,7 @@ module.exports = /******/ (function (modules) {
       process.nextTick = function (fun) {
         var args = new Array(arguments.length - 1);
         if (arguments.length > 1) {
-          for (var i = 1; i < arguments.length; i++) {
+          for(var i = 1; i < arguments.length; i++) {
             args[i - 1] = arguments[i];
           }
         }
@@ -348,7 +348,7 @@ module.exports = /******/ (function (modules) {
 
       var _createClass = (function () {
         function defineProperties(target, props) {
-          for (var i = 0; i < props.length; i++) {
+          for(var i = 0; i < props.length; i++) {
             var descriptor = props[i];
             descriptor.enumerable = descriptor.enumerable || false;
             descriptor.configurable = true;
@@ -468,7 +468,6 @@ module.exports = /******/ (function (modules) {
       };
       GifLoader.defaultProps = {
         imageSrc: 'https://media.giphy.com/media/l378zKVk7Eh3yHoJi/source.gif',
-        imageStyle: { marginTop: '-2%' },
         overlayBackground: 'rgba(0,0,0,0.4)',
       };
       exports.default = GifLoader;
@@ -516,7 +515,7 @@ object-assign
 
           // https://bugs.chromium.org/p/v8/issues/detail?id=3056
           var test2 = {};
-          for (var i = 0; i < 10; i++) {
+          for(var i = 0; i < 10; i++) {
             test2['_' + String.fromCharCode(i)] = i;
           }
           var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
@@ -539,7 +538,7 @@ object-assign
           }
 
           return true;
-        } catch (err) {
+        } catch(err) {
           // We don't expect any of the above to throw, but better to be safe.
           return false;
         }
@@ -548,31 +547,31 @@ object-assign
       module.exports = shouldUseNative()
         ? Object.assign
         : function (target, source) {
-            var from;
-            var to = toObject(target);
-            var symbols;
+          var from;
+          var to = toObject(target);
+          var symbols;
 
-            for (var s = 1; s < arguments.length; s++) {
-              from = Object(arguments[s]);
+          for(var s = 1; s < arguments.length; s++) {
+            from = Object(arguments[s]);
 
-              for (var key in from) {
-                if (hasOwnProperty.call(from, key)) {
-                  to[key] = from[key];
-                }
-              }
-
-              if (getOwnPropertySymbols) {
-                symbols = getOwnPropertySymbols(from);
-                for (var i = 0; i < symbols.length; i++) {
-                  if (propIsEnumerable.call(from, symbols[i])) {
-                    to[symbols[i]] = from[symbols[i]];
-                  }
-                }
+            for(var key in from) {
+              if (hasOwnProperty.call(from, key)) {
+                to[key] = from[key];
               }
             }
 
-            return to;
-          };
+            if (getOwnPropertySymbols) {
+              symbols = getOwnPropertySymbols(from);
+              for(var i = 0; i < symbols.length; i++) {
+                if (propIsEnumerable.call(from, symbols[i])) {
+                  to[symbols[i]] = from[symbols[i]];
+                }
+              }
+            }
+          }
+
+          return to;
+        };
 
       /***/
     },
@@ -603,7 +602,7 @@ object-assign
               // This error was thrown as a convenience so that you can use this stack
               // to find the callsite that caused this warning to fire.
               throw new Error(message);
-            } catch (x) {}
+            } catch(x) {}
           };
         }
 
@@ -626,7 +625,7 @@ object-assign
           getStack
         ) {
           if (process.env.NODE_ENV !== 'production') {
-            for (var typeSpecName in typeSpecs) {
+            for(var typeSpecName in typeSpecs) {
               if (typeSpecs.hasOwnProperty(typeSpecName)) {
                 var error;
                 // Prop type validation may throw. In case they do, we don't want to
@@ -658,7 +657,7 @@ object-assign
                     null,
                     ReactPropTypesSecret
                   );
-                } catch (ex) {
+                } catch(ex) {
                   error = ex;
                 }
                 if (error && !(error instanceof Error)) {
@@ -806,7 +805,7 @@ object-assign
               // This error was thrown as a convenience so that you can use this stack
               // to find the callsite that caused this warning to fire.
               throw new Error(message);
-            } catch (x) {}
+            } catch(x) {}
           };
         }
 
@@ -1114,7 +1113,7 @@ object-assign
                       '`, expected an array.')
                 );
               }
-              for (var i = 0; i < propValue.length; i++) {
+              for(var i = 0; i < propValue.length; i++) {
                 var error = typeChecker(
                   propValue,
                   i,
@@ -1195,8 +1194,8 @@ object-assign
             if (!Array.isArray(expectedValues)) {
               process.env.NODE_ENV !== 'production'
                 ? printWarning(
-                    'Invalid argument supplied to oneOf, expected an instance of array.'
-                  )
+                  'Invalid argument supplied to oneOf, expected an instance of array.'
+                )
                 : void 0;
               return emptyFunctionThatReturnsNull;
             }
@@ -1209,7 +1208,7 @@ object-assign
               propFullName
             ) {
               var propValue = props[propName];
-              for (var i = 0; i < expectedValues.length; i++) {
+              for(var i = 0; i < expectedValues.length; i++) {
                 if (is(propValue, expectedValues[i])) {
                   return null;
                 }
@@ -1267,7 +1266,7 @@ object-assign
                       '`, expected an object.')
                 );
               }
-              for (var key in propValue) {
+              for(var key in propValue) {
                 if (propValue.hasOwnProperty(key)) {
                   var error = typeChecker(
                     propValue,
@@ -1291,13 +1290,13 @@ object-assign
             if (!Array.isArray(arrayOfTypeCheckers)) {
               process.env.NODE_ENV !== 'production'
                 ? printWarning(
-                    'Invalid argument supplied to oneOfType, expected an instance of array.'
-                  )
+                  'Invalid argument supplied to oneOfType, expected an instance of array.'
+                )
                 : void 0;
               return emptyFunctionThatReturnsNull;
             }
 
-            for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+            for(var i = 0; i < arrayOfTypeCheckers.length; i++) {
               var checker = arrayOfTypeCheckers[i];
               if (typeof checker !== 'function') {
                 printWarning(
@@ -1319,7 +1318,7 @@ object-assign
               location,
               propFullName
             ) {
-              for (var i = 0; i < arrayOfTypeCheckers.length; i++) {
+              for(var i = 0; i < arrayOfTypeCheckers.length; i++) {
                 var checker = arrayOfTypeCheckers[i];
                 if (
                   checker(
@@ -1392,7 +1391,7 @@ object-assign
                     ('supplied to `' + componentName + '`, expected `object`.')
                 );
               }
-              for (var key in shapeTypes) {
+              for(var key in shapeTypes) {
                 var checker = shapeTypes[key];
                 if (!checker) {
                   continue;
@@ -1439,7 +1438,7 @@ object-assign
               // We need to check all keys in case some are required but missing from
               // props.
               var allKeys = assign({}, props[propName], shapeTypes);
-              for (var key in allKeys) {
+              for(var key in allKeys) {
                 var checker = shapeTypes[key];
                 if (!checker) {
                   return new PropTypeError(
@@ -1477,7 +1476,7 @@ object-assign
           }
 
           function isNode(propValue) {
-            switch (typeof propValue) {
+            switch(typeof propValue) {
               case 'number':
               case 'string':
               case 'undefined':
@@ -1497,14 +1496,14 @@ object-assign
                   var iterator = iteratorFn.call(propValue);
                   var step;
                   if (iteratorFn !== propValue.entries) {
-                    while (!(step = iterator.next()).done) {
+                    while(!(step = iterator.next()).done) {
                       if (!isNode(step.value)) {
                         return false;
                       }
                     }
                   } else {
                     // Iterator will provide entry [k,v] tuples rather than values.
-                    while (!(step = iterator.next()).done) {
+                    while(!(step = iterator.next()).done) {
                       var entry = step.value;
                       if (entry) {
                         if (!isNode(entry[1])) {
@@ -1581,7 +1580,7 @@ object-assign
           // For example, "undefined" or "of type array"
           function getPostfixForTypeWarning(value) {
             var type = getPreciseType(value);
-            switch (type) {
+            switch(type) {
               case 'array':
               case 'object':
                 return 'an ' + type;

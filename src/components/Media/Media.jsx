@@ -16,7 +16,7 @@ const Media = () => {
   return (
     <>
       <section className={styles.Media}>
-        <h1>_MEDIA</h1>
+        <h1 className={styles.PageName}>_MEDIA</h1>
         <section className={styles.Top}>
           <p className={styles.Description}>
             this is the media section. it has recordings on it from current

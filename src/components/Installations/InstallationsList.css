@@ -9,6 +9,24 @@
   margin: 1rem;
   padding: 1rem;
 
+  @media screen and (max-width: 400px) {
+    iframe {
+      width: 10rem;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    iframe {
+      width: 16rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    iframe {
+      width: 18rem;
+    }
+  }
+
   .DateLocation {
     display: inline-block;
   }

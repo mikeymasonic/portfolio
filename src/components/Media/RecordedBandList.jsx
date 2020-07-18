@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './MediaList.css';
 
 const RecordedBandList = ({ releaseName, bandcamp }) => {
-  const style = { border: 0, width: '350px', height: '555px' };
+  const style = { border: 0 };
 
   return (
     <section className={styles.MediaList}>

@@ -8,7 +8,7 @@ const Bio = () => {
   return (
     <>
       <section className={styles.Bio}>
-        <h1>_BIO</h1>
+        <h1 className={styles.PageName}>_BIO</h1>
         <section className={styles.ImgText}>
           <GifLoader
             className={styles.Gif}

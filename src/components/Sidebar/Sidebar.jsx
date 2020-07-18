@@ -17,6 +17,16 @@ const Sidebar = () => {
               <li>-tech enthusiast/futurist</li>
               <li>-software engineer</li>
               <li>-makes music and immersive art</li>
+              <li>
+                -co-founder of
+                <a
+                  href="http://whateverSpace.org"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  whateverSpace
+                </a>
+              </li>
               <li>-lives in portland, oregon</li>
             </ul>
           </section>

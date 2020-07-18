@@ -24,20 +24,16 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
   let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
-  function openModal() {
-    setIsOpen(true);
+  function openOrCloseModal() {
+    setIsOpen(!modalIsOpen);
   }
 
   function afterOpenModal() {
     subtitle.style.color = '#f00';
   }
 
-  function closeModal() {
-    setIsOpen(false);
-  }
-
   const imageNodes = images.map((image) => {
-    return <section onClick={closeModal} key={image} data-src={image} />;
+    return <section onClick={openOrCloseModal} key={image} data-src={image} />;
   });
 
   return (
@@ -61,7 +57,7 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
         <Modal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
-          onRequestClose={closeModal}
+          onRequestClose={openOrCloseModal}
           style={customStyles}
           contentLabel="Installation Pictures"
         >
@@ -74,7 +70,7 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
         </Modal>
       </section>
 
-      <section className={styles.ImageSlider} onClick={openModal}>
+      <section className={styles.ImageSlider}>
         <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
           {imageNodes}
         </AwesomeSlider>

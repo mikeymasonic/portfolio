@@ -54,6 +54,17 @@
     background-color: red;
   }
 
+  .Modal .CloseButton {
+    display: flex;
+    justify-content: right;
+    margin: auto;
+  }
+
+  .CloseButton button {
+    outline: none;
+    color: red;
+  }
+
   .DateLocation {
     display: inline-block;
   }

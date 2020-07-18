@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-// import fullscreenIcon from '../../assets/images/fullscreen.png';
 import styles from './InstallationsList.css';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from '../../styles/styles.scss';
 import Modal from 'react-modal';
 
+//styles for modal
 const customStyles = {
   content: {
     width: '95%',
@@ -15,9 +15,9 @@ const customStyles = {
     bottom: 'auto',
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
-    backgroundColor: 'red',
+    backgroundColor: '#f0f4f7',
   },
-  overlay: { zIndex: 1000 },
+  overlay: { zIndex: 20 },
 };
 
 const InstallationsList = ({
@@ -30,30 +30,24 @@ const InstallationsList = ({
   github,
   images,
 }) => {
-  // const [fullscreen, setFullscreen] = useState(false);
-  const imageNodes = images.map((image) => {
-    return <section key={image} data-src={image} />;
-  });
-
-  // const changeFullscreen = () => {
-  //   setFullscreen(!fullscreen);
-  //   console.log(fullscreen);
-  // };
-
-  var subtitle;
+  let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
+
   function openModal() {
     setIsOpen(true);
   }
 
   function afterOpenModal() {
-    // references are now sync'd and can be accessed.
     subtitle.style.color = '#f00';
   }
 
   function closeModal() {
     setIsOpen(false);
   }
+
+  const imageNodes = images.map((image) => {
+    return <section onClick={closeModal} key={image} data-src={image} />;
+  });
 
   return (
     <section className={styles.InstallationsList}>
@@ -70,33 +64,28 @@ const InstallationsList = ({
       </section>
       <p>{description}</p>
 
-      {/* <button onClick={openModal}>Open Modal</button> */}
       <section className={styles.Modal}>
         <Modal
           isOpen={modalIsOpen}
           onAfterOpen={afterOpenModal}
           onRequestClose={closeModal}
           style={customStyles}
-          contentLabel="Example Modal"
+          contentLabel="Installation Pictures"
         >
-          <h2 ref={(_subtitle) => (subtitle = _subtitle)}></h2>
-          <button onClick={closeModal}>close</button>
-          <div>
-            I am a modal {name}
+          <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{name}</h2>
+          <section>
             <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
               {imageNodes}
             </AwesomeSlider>
-          </div>
+          </section>
         </Modal>
       </section>
       <section className={styles.ImageSlider} onClick={openModal}>
         <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
           {imageNodes}
         </AwesomeSlider>
-        {/* <button onClick={changeFullscreen} className={styles.btn}>
-          <img src={fullscreenIcon} alt="fullscreen icon" />
-        </button> */}
       </section>
+
       <section className={styles.Video}>
         {youTubeVideos && (
           <iframe

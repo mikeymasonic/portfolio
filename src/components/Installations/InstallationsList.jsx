@@ -80,6 +80,7 @@ const InstallationsList = ({
           </section>
         </Modal>
       </section>
+
       <section className={styles.ImageSlider} onClick={openModal}>
         <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
           {imageNodes}

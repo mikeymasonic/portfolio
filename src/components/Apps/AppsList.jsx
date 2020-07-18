@@ -20,17 +20,7 @@ const customStyles = {
   overlay: { zIndex: 20 },
 };
 
-const AppsList = ({
-  name,
-  stack,
-  description,
-  github,
-  site,
-  images,
-  // image1,
-  // image2,
-  // image3,
-}) => {
+const AppsList = ({ name, stack, description, github, site, images }) => {
   let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -89,25 +79,6 @@ const AppsList = ({
           {imageNodes}
         </AwesomeSlider>
       </section>
-
-      {/* {!image3 && (
-        <section className={styles.ImageSlider} onClick={openModal}>
-          <AwesomeSlider scssModule={AwesomeSliderStyles}>
-            <div data-src={image1} />
-            <div data-src={image2} />
-          </AwesomeSlider>
-        </section>
-      )} */}
-
-      {/* {image3 && (
-        <section className={styles.ImageSlider} onClick={openModal}>
-          <AwesomeSlider scssModule={AwesomeSliderStyles}>
-            <div data-src={image1} />
-            <div data-src={image2} />
-            <div data-src={image3} />
-          </AwesomeSlider>
-        </section>
-      )} */}
     </section>
   );
 };
@@ -119,9 +90,6 @@ AppsList.propTypes = {
   github: PropTypes.string.isRequired,
   site: PropTypes.string.isRequired,
   images: PropTypes.string.isRequired,
-  // image1: PropTypes.string.isRequired,
-  // image2: PropTypes.string.isRequired,
-  // image3: PropTypes.string,
 };
 
 export default AppsList;

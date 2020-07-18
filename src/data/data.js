@@ -10,8 +10,6 @@ export const applications = [
       'assets/images/apps/whateversynth1.png',
       'assets/images/apps/whateversynth2.png',
     ],
-    // image1: 'assets/images/apps/whateversynth1.png',
-    // image2: 'assets/images/apps/whateversynth2.png',
   },
   {
     name: 'alcherithm',
@@ -24,9 +22,6 @@ export const applications = [
       'assets/images/apps/alcherithm1.png',
       'assets/images/apps/alcherithm2.png',
     ],
-
-    // image1: 'assets/images/apps/alcherithm1.png',
-    // image2: 'assets/images/apps/alcherithm2.png',
   },
   {
     name: 'fresh-track',
@@ -41,9 +36,6 @@ export const applications = [
       'assets/images/apps/freshtrack2.png',
       'assets/images/apps/freshtrack3.png',
     ],
-    // image1: 'assets/images/apps/freshtrack1.png',
-    // image2: 'assets/images/apps/freshtrack2.png',
-    // image3: 'assets/images/apps/freshtrack3.png',
   },
   {
     name: 'airSupply',
@@ -57,9 +49,6 @@ export const applications = [
       'assets/images/apps/airsupply2.png',
       'assets/images/apps/airsupply3.png',
     ],
-    // image1: 'assets/images/apps/airsupply1.png',
-    // image2: 'assets/images/apps/airsupply2.png',
-    // image3: 'assets/images/apps/airsupply3.png',
   },
 
   {
@@ -70,8 +59,6 @@ export const applications = [
     github: 'https://github.com/covid-19-relief',
     site: 'https://www.covid19aidfunds.org/',
     images: ['assets/images/apps/covid1.png', 'assets/images/apps/covid2.png'],
-    // image1: 'assets/images/apps/covid1.png',
-    // image2: 'assets/images/apps/covid2.png',
   },
 
   {
@@ -86,9 +73,6 @@ export const applications = [
       'assets/images/apps/artistsearch2.png',
       'assets/images/apps/artistsearch3.png',
     ],
-    // image1: 'assets/images/apps/artistsearch1.png',
-    // image2: 'assets/images/apps/artistsearch2.png',
-    // image3: 'assets/images/apps/artistsearch3.png',
   },
 
   {
@@ -102,8 +86,6 @@ export const applications = [
       'assets/images/apps/chrysalsynth1.png',
       'assets/images/apps/chrysalsynth2.png',
     ],
-    // image1: 'assets/images/apps/chrysalsynth1.png',
-    // image2: 'assets/images/apps/chrysalsynth2.png',
   },
 ];
 

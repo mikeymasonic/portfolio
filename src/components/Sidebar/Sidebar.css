@@ -24,6 +24,10 @@
   overflow-x: hidden;
   margin-right: 10px;
 
+  a {
+    margin-left: 0.25rem;
+  }
+
   .Name {
     font-weight: bold;
     color: #d3455b;

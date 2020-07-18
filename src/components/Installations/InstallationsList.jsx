@@ -1,8 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import styles from './InstallationsList.css';
+import Modal from 'react-modal';
 import AwesomeSlider from 'react-awesome-slider';
 import AwesomeSliderStyles from '../../styles/styles.scss';
+import styles from './InstallationsList.css';
+
+//styles for modal
+const customStyles = {
+  content: {
+    width: '95%',
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(-50%, -50%)',
+    backgroundColor: '#f0f4f7',
+  },
+  overlay: { zIndex: 20 },
+};
 
 const InstallationsList = ({
   name,
@@ -14,8 +30,19 @@ const InstallationsList = ({
   github,
   images,
 }) => {
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = useState(false);
+
+  function openOrCloseModal() {
+    setIsOpen(!modalIsOpen);
+  }
+
+  function afterOpenModal() {
+    subtitle.style.color = '#f00';
+  }
+
   const imageNodes = images.map((image) => {
-    return <div key={image} data-src={image} />;
+    return <section onClick={openOrCloseModal} key={image} data-src={image} />;
   });
 
   return (
@@ -32,9 +59,30 @@ const InstallationsList = ({
         </a>
       </section>
       <p>{description}</p>
-      <AwesomeSlider scssModule={AwesomeSliderStyles}>
-        {imageNodes}
-      </AwesomeSlider>
+
+      <section className={styles.Modal}>
+        <Modal
+          isOpen={modalIsOpen}
+          onAfterOpen={afterOpenModal}
+          onRequestClose={openOrCloseModal}
+          style={customStyles}
+          contentLabel="Installation Pictures"
+        >
+          <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{name}</h2>
+          <section>
+            <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
+              {imageNodes}
+            </AwesomeSlider>
+          </section>
+        </Modal>
+      </section>
+
+      <section className={styles.ImageSlider}>
+        <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
+          {imageNodes}
+        </AwesomeSlider>
+      </section>
+
       <section className={styles.Video}>
         {youTubeVideos && (
           <iframe

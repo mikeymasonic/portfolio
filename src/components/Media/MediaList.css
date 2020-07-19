@@ -10,7 +10,7 @@
   padding: 1rem;
   width: 40%;
 
-  iframe {
+  .Video iframe {
     width: 350px;
     height: 555px;
   }
@@ -65,5 +65,9 @@
 
   .Video {
     margin-top: 0.5rem;
+  }
+
+  .Radio {
+    display: block;
   }
 }

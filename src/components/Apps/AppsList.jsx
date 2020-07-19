@@ -29,7 +29,7 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
   }
 
   function afterOpenModal() {
-    subtitle.style.color = '#f00';
+    subtitle.style.color = '#d3455b';
   }
 
   const imageNodes = images.map((image) => {

@@ -76,6 +76,21 @@ export const applications = [
   },
 
   {
+    name: 'portfolio',
+    stack: 'JavaScript | React',
+    description:
+      "This is the site you're on right now, how very meta.  I've been wanting to build a portfolio site for years to showcase all the things I'm involved in / projects I'm working on.  Now, here we are.  Built from scratch in React, a pretty straightforward build.  Used a JSON data file for all the content which made things a lot more organized and easy to update. Not surprisingly, most of the time and effort went into making the css play well on multiple devices.",
+    github: 'https://github.com/mikeymasonic/portfolio',
+    site: 'https://michaelromay.dev',
+    images: [
+      'assets/images/apps/portfolio1.png',
+      'assets/images/apps/portfolio2.png',
+      'assets/images/apps/portfolio3.png',
+      'assets/images/apps/portfolio4.png',
+    ],
+  },
+
+  {
     name: 'chrysalSynth',
     stack: 'JavaScript | HTML | CSS',
     description:

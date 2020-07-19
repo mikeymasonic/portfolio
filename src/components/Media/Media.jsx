@@ -3,6 +3,7 @@ import { media, recordedBands } from '../../data/data';
 import MediaList from './MediaList';
 import RecordedBandList from './RecordedBandList';
 import styles from './Media.css';
+import RadioShowList from './RadioShowList';
 
 const Media = () => {
   const mediaNodes = media.map((media) => {
@@ -42,6 +43,14 @@ const Media = () => {
           some albums I have engineered/produced:
         </h4>
         <section className={styles.Content}>{recordedBandNodes}</section>
+
+        <h4 className={styles.Radio}>
+          archives from my old radio show <br />
+          &lsquo;whatever.&lsquo; on freeform portland 90.3 fm:
+        </h4>
+        <section className={styles.Content}>
+          <RadioShowList />
+        </section>
       </section>
     </>
   );

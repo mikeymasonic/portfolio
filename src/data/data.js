@@ -155,7 +155,7 @@ export const installationsData = [
       'assets/images/installations/bodyImageLtd/9.jpg',
       'assets/images/installations/bodyImageLtd/10.jpg',
       'assets/images/installations/bodyImageLtd/11.jpg',
-      'assets/images/installations/bodyImageLtd/12.png',
+      'assets/images/installations/bodyImageLtd/12.jpg',
     ],
   },
   {
@@ -168,7 +168,7 @@ export const installationsData = [
     // youTubeVideos: 'DwP0MY2JERw',
     github: 'https://github.com/mikeymasonic/theWave/',
     images: [
-      'assets/images/installations/theWave/1.png',
+      'assets/images/installations/theWave/1.jpg',
       'assets/images/installations/theWave/2.jpg',
       'assets/images/installations/theWave/3.jpg',
       'assets/images/installations/theWave/4.jpg',

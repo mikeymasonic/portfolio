@@ -54,4 +54,14 @@
       margin-bottom: -0.75rem;
     }
   }
+
+  @media screen and (max-width: 360px) {
+    margin-top: 10%;
+    font-size: 0.75rem;
+
+    .PageName {
+      margin-top: 7rem;
+      margin-bottom: -0.75rem;
+    }
+  }
 }

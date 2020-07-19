@@ -10,7 +10,7 @@
   padding: 1rem;
   width: 40%;
 
-  .Video iframe {
+  iframe {
     width: 350px;
     height: 555px;
   }

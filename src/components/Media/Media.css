@@ -25,6 +25,26 @@
     }
   }
 
+  @media screen and (max-width: 824px) {
+    margin-top: 9%;
+    font-size: 0.75rem;
+
+    .PageName {
+      margin-top: 8rem;
+      margin-bottom: -0.75rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    margin-top: 8%;
+    font-size: 0.75rem;
+
+    .PageName {
+      margin-top: 7rem;
+      margin-bottom: -0.75rem;
+    }
+  }
+
   .Top {
     display: flex;
     justify-content: space-between;

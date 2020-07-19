@@ -31,6 +31,22 @@
     }
   }
 
+  @media screen and (max-width: 824px) {
+    width: 100%;
+    iframe {
+      width: 17rem;
+      height: 17rem;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+    iframe {
+      width: 17rem;
+      height: 17rem;
+    }
+  }
+
   .YearsActive {
     margin-top: -1rem;
   }

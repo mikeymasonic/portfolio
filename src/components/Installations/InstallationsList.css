@@ -27,6 +27,12 @@
     }
   }
 
+  @media screen and (max-width: 824px) {
+    iframe {
+      width: 18rem;
+    }
+  }
+
   .ImageSlider + img {
     width: 50%;
   }

@@ -17,7 +17,7 @@
 
 @media screen and (max-height: 400px) {
   .Sidebar {
-    margin-top: -1rem;
+    margin-top: 0rem;
   }
   .SidebarText {
     font-size: 0.85rem;

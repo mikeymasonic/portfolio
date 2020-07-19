@@ -113,6 +113,12 @@ html {
     width: 60%;
   }
 
+  @media screen and (max-height: 400px) {
+    .Logo img {
+      width: 40%;
+    }
+  }
+
   .links {
     display: flex;
     flex-direction: column;

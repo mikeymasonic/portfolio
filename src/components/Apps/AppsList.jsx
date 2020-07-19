@@ -85,7 +85,7 @@ AppsList.propTypes = {
   description: PropTypes.string.isRequired,
   github: PropTypes.string.isRequired,
   site: PropTypes.string.isRequired,
-  images: PropTypes.string.isRequired,
+  images: PropTypes.array.isRequired,
 };
 
 export default AppsList;

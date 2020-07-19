@@ -12,7 +12,7 @@ const Header = () => {
     <>
       <header className={styles.Header}>
         <Link className={styles.Logo} to="/">
-          <img src={logo} />
+          <img className={styles.LogoImg} src={logo} />
         </Link>
 
         <nav className={styles.navBar}>

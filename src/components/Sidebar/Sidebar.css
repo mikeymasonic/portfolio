@@ -15,6 +15,18 @@
   }
 }
 
+@media screen and (max-height: 400px) {
+  .Sidebar {
+    margin-top: -1rem;
+  }
+  .SidebarText {
+    font-size: 0.85rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+}
+
 .Sidebar {
   position: fixed;
   height: 100%;

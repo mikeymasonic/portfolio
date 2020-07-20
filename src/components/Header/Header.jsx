@@ -22,15 +22,9 @@ const Header = () => {
           <Link className={styles.navLink} to="/apps">
             _APPS
           </Link>
-          {/* <Link className={styles.navLink} to="/hardware">
-            _HARDWARE
-          </Link> */}
           <Link className={styles.navLink} to="/installations">
             _INSTALLATIONS
           </Link>
-          {/* <Link className={styles.navLink} to="/projects">
-            _PROJECTS
-          </Link> */}
           <Link className={styles.navLink} to="/media">
             _MEDIA
           </Link>

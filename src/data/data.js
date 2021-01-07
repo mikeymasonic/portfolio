@@ -117,7 +117,7 @@ export const contact = {
   whateverSpace: 'http://www.whateverSpace.org',
   whateverSpaceInsta: 'https://www.instagram.com/whateverSpacepdx',
   resume:
-    'https://drive.google.com/file/d/1agFGjZ0fkHYwjlzmW4XS6kKUHOjhsh6B/view?usp=sharing',
+    'https://drive.google.com/file/d/1JwuOnUpG0ZA3M3gzbSNtNZPJe8l-MzMy/view?usp=sharing',
 };
 
 export const installationsData = [

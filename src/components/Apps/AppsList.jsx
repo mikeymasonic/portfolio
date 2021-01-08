@@ -20,7 +20,7 @@ const customStyles = {
   overlay: { zIndex: 20 },
 };
 
-const AppsList = ({ name, stack, description, github, site, images }) => {
+const AppsList = ({ name, stack, description, github, site, images, youTubeVideos }) => {
   let subtitle;
   const [modalIsOpen, setIsOpen] = useState(false);
 
@@ -42,10 +42,11 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
 
       <p className={styles.Stack}>{stack}</p>
       <section className={styles.Links}>
-        <a href={github} target="_blank" rel="noopener noreferrer">
-          github
-        </a>
-        /
+        {github && (
+          <>
+            <a href={github} target="_blank" rel="noopener noreferrer">
+        github</a> / </>)}
+ 
         <a href={site} target="_blank" rel="noopener noreferrer">
           site
         </a>
@@ -59,7 +60,7 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
           onAfterOpen={afterOpenModal}
           onRequestClose={openOrCloseModal}
           style={customStyles}
-          contentLabel="Installation Pictures"
+          contentLabel="App Pictures"
         >
           <h2 ref={(_subtitle) => (subtitle = _subtitle)}>{name}</h2>
           <section>
@@ -68,12 +69,26 @@ const AppsList = ({ name, stack, description, github, site, images }) => {
             </AwesomeSlider>
           </section>
         </Modal>
+        
       </section>
 
       <section className={styles.ImageSlider}>
         <AwesomeSlider fillParent={false} scssModule={AwesomeSliderStyles}>
           {imageNodes}
         </AwesomeSlider>
+      </section>
+      <section className={styles.Video}>
+        {youTubeVideos && (
+          <iframe
+            key={youTubeVideos}
+            width="560"
+            height="315"
+            src={`https://www.youtube.com/embed/${youTubeVideos}`}
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        )}
       </section>
     </section>
   );
@@ -83,9 +98,10 @@ AppsList.propTypes = {
   name: PropTypes.string.isRequired,
   stack: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
-  github: PropTypes.string.isRequired,
+  github: PropTypes.string,
   site: PropTypes.string.isRequired,
   images: PropTypes.array.isRequired,
+  youTubeVideos: PropTypes.string,
 };
 
 export default AppsList;

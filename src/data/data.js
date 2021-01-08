@@ -1,7 +1,34 @@
 export const applications = [
   {
+    name: 'frqncy.live',
+    stack: 'Vue | Nuxt | Apollo | PostgreSQL | GraphQL | TensorFlow | Sanity',
+    description:
+      'frqncy is a commercial web application that uses WebRTC to create virtual video chat rooms with friends to watch concerts together, buy merchandise and virtually interact with bands.  I developed a robust system that uses machine learning to detect claps and cheers that broadcasts the audio and sends data to be used by lighting and visual effects artists in venues.  I also worked on frontend and backend elements of the page to create a seamless web interface for audience participants along with day to day decision making to build the app from the ground up.',
+    site: 'https://frqncy.live/',
+    images: [
+      'assets/images/apps/frqncy1.png',
+      'assets/images/apps/frqncy2.png',
+      'assets/images/apps/frqncy3.jpg',
+      'assets/images/apps/frqncy4.png',
+      'assets/images/apps/frqncy5.png',
+    ],
+  },
+  {
+    name: 'funding relief',
+    stack: 'React | Express | PostgreSQL | Node.js | Cheerio Scraper',
+    description:
+      'Built after the wildfires on the west coast in 2020 happened, I was trying to think of ways to help out people using my web development knowledge. The idea I came up with is simple and builds on the platform GoFundMe has already built. I wanted to create a space that let\'s people browse all of the current wildfire funds on the West Coast to learn more about about individuals and communities in need. You can can see detailed information about each fund and when you\'re ready can go directly to that funds GoFundMe page to donate. What makes the site a bit different is that I wanted to ensure funds that are the furthest from reaching their goal make it to the top of the page. That\'s why when you will always those who still need the most relief at the top of the page.  The site scrapes GoFundMe twice a day and updates our database to reflect the latest information.  What\'s great about this project is it is reusable for any type of GoFundMe campaign by just inputting a URL on our backend.',
+    github: 'https://github.com/fundingRelief',
+    site: 'http://fundingrelief.netlify.app/',
+    images: [
+      'assets/images/apps/fundingrelief1.png',
+      'assets/images/apps/fundingrelief2.png',
+      'assets/images/apps/fundingrelief3.png',
+    ],
+  },
+  {
     name: 'whateverSynth',
-    stack: 'JavaScript | React',
+    stack: 'React | Web Audio API',
     description:
       'In browser JavaScript/React based musical synthesizer that can be controlled using a computer keyboard, mouse, touch or a MIDI controller. Users can add effects chains in any order and share patches with other users.  Made with the Web Audio API. The app is responsive and can be used on any device that has a browser.  I created the global state provider that is used throughout the site, created basic synth playback, implemented MIDI input, and created the oscilloscope.',
     github: 'https://github.com/whateverSynth',
@@ -12,8 +39,22 @@ export const applications = [
     ],
   },
   {
+    name: 'shapeways',
+    stack: 'React | TensorFlow | Magenta | ml5 | Web Audio API',
+    description:
+      'Shapeways is a multimedia sandbox at the bleeding edge of art and technology. It\'s a real-time music and art generator that responds to your movements. It\'s an audiovisual composition shaped by the user, made possible by machine learning.',
+    github: 'https://github.com/whateverSpace/shapeways-frontend',
+    site: 'https://shapeways.netlify.app/',
+    images: [
+      'assets/images/apps/shapeways1.png',
+      'assets/images/apps/shapeways2.png',
+      'assets/images/apps/shapeways3.png',
+    ],
+    youTubeVideos: '5x5oFnMPvAQ',
+  },
+  {
     name: 'alcherithm',
-    stack: 'JavaScript | React | Express | MongoDB | Node.js | QUnit',
+    stack: 'React | Express | MongoDB | Node.js | QUnit',
     description:
       'Alcherithm is designed to be a JavaScript coding companion to help junior software developers learn and practice various code challenges. My team and I developed a learning platform that combines resources, videos and documentation to help developers build up a foundation in code. Users can code live in the browser and have that code checked against tests using QUnit. I wrote the user authentication for the front and back end and implemented a global state provider to share data to our various modular components, along with a lot of the design and conditional rendering in the app.',
     github: 'https://github.com/alcherithm',
@@ -63,7 +104,7 @@ export const applications = [
 
   {
     name: 'music search',
-    stack: 'JavaScript | React',
+    stack: 'React',
     description:
       'A proof of concept app that allows you to search for an artist, display their releases, select songs, and view lyrics.  This was written using class based components in React and hit multiple APIs to pull in information.',
     github: 'https://github.com/mikeymasonic/music-search-thing',
@@ -77,7 +118,7 @@ export const applications = [
 
   {
     name: 'portfolio',
-    stack: 'JavaScript | React',
+    stack: 'React',
     description:
       "This is the site you're on right now, how very meta.  I've been wanting to build a portfolio site for years to showcase all the things I'm involved in / projects I'm working on.  Now, here we are.  Built from scratch in React, a pretty straightforward build.  Used a JSON data file for all the content which made things a lot more organized and easy to update. Not surprisingly, most of the time and effort went into making the css play well on multiple devices.",
     github: 'https://github.com/mikeymasonic/portfolio',

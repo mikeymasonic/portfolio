@@ -1,7 +1,7 @@
 export const applications = [
   {
     name: 'frqncy.live',
-    stack: 'Vue | Nuxt | Apollo | PostgreSQL | GraphQL | TensorFlow | Sanity',
+    stack: 'Vue.js | Nuxt | Apollo | PostgreSQL | GraphQL | TensorFlow | Sanity',
     description:
       'frqncy is a commercial web application that uses WebRTC to create virtual video chat rooms with friends to watch concerts together, buy merchandise and virtually interact with bands.  I developed a robust system that uses machine learning to detect claps and cheers that broadcasts the audio and sends data to be used by lighting and visual effects artists in venues.  I also worked on frontend and backend elements of the page to create a seamless web interface for audience participants along with day to day decision making to build the app from the ground up.',
     site: 'https://frqncy.live/',

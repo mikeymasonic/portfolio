@@ -14,6 +14,7 @@ const Media = () => {
       <RecordedBandList key={recordedBand.releaseName} {...recordedBand} />
     );
   });
+
   return (
     <>
       <section className={styles.Media}>

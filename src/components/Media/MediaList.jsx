@@ -8,7 +8,23 @@ const MediaList = ({
   members,
   description,
   bandcamp,
+  youTubeVideos,
 }) => {
+  let youTubeVideoNodes;
+  if (youTubeVideos){
+    youTubeVideoNodes = youTubeVideos.map((youTubeVideo) => {
+      return <iframe
+        key={youTubeVideo}
+        className={styles.iframeYT}
+        width="560"
+        height="315"
+        src={`https://www.youtube.com/embed/${youTubeVideo}`}
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>;
+    });
+  }
   const style = { border: 0 };
   return (
     <section className={styles.MediaList}>
@@ -21,10 +37,12 @@ const MediaList = ({
       <p className={styles.Description}>{description}</p>
       <section className={styles.Video}>
         <iframe
+          className={styles.iframeBC}
           style={style}
           src={`https://bandcamp.com/EmbeddedPlayer/album=${bandcamp}/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/`}
           seamless
         ></iframe>
+        { youTubeVideoNodes }
       </section>
     </section>
   );
@@ -35,6 +53,7 @@ MediaList.propTypes = {
   members: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   bandcamp: PropTypes.string.isRequired,
+  youTubeVideos: PropTypes.array
 };
 
 export default MediaList;

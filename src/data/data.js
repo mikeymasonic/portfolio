@@ -260,6 +260,16 @@ export const installationsData = [
 ];
 
 export const media = [
+  // {
+  //   bandName: 'disappointed friend',
+  //   yearsActive: '2018-current',
+  //   members:
+  //     'michael romay(guitar, vocals), craig phillips(guitar)',
+  //   description:
+  //     'pretenser was a band created by myself any my homie craig.  we set out to create slow sad loud music in the vain of codeine and bedhead.  played some shows, recorded a couple of records (one is still unreleased).  Here is our first EP from around 2016',
+  //   bandcamp: '4267872102', 
+  //   youTubeVideos: 'RWYXh6USo8w',
+  // },
   {
     bandName: 'pretenser',
     yearsActive: '2013-2018',
@@ -268,6 +278,8 @@ export const media = [
     description:
       'pretenser was a band created by myself any my homie craig.  we set out to create slow sad loud music in the vain of codeine and bedhead.  played some shows, recorded a couple of records (one is still unreleased).  Here is our first EP from around 2016',
     bandcamp: '4267872102',
+    // youTubeVideos: ['nPYtQi6NPiU', 'eQ1i1vq3-O8'],
+    // youTubeVideos: 'RWYXh6USo8w',
   },
   {
     bandName: 'no phone',
@@ -277,6 +289,7 @@ export const media = [
     description:
       'no phone was a real weird band that played in ridiculous time signatures.  it was a passion project created by matt stangel.  played some shows locally and recorded this ep below.',
     bandcamp: '2926175440',
+    // youTubeVideos: ['nPYtQi6NPiU', 'eQ1i1vq3-O8'],
   },
   {
     bandName: 'ocean age',
@@ -286,6 +299,7 @@ export const media = [
     description:
       "ocean age was a band created by yuri and gavi.  I met yuri through work at the levis store in downtown portland.  this band was created at the height of 2009 when bands like Animal Collective and Fleet Foxes were popular (which I wasn't very stoked on, but I had just moved to portland and was looking for some humans to connect with.  we played a bunch of shows with some great bands over the years, like Nurses, Church, Say Hi, and more.  this was our one and only album we recorded",
     bandcamp: '4037375649',
+    // youTubeVideos: ['nPYtQi6NPiU', 'eQ1i1vq3-O8'],
   },
   {
     bandName: 'am error',
@@ -295,6 +309,7 @@ export const media = [
     description:
       'am error was a band I started with some homies back in 2005 in toledo, oh.  we were influenced by bands like Drive Like Jehu, Lightening Bolt, Q and Not U, and Brainiac.  Played a bunch of shows, toured, recorded a couple of records.  Played some shows with some decent sized bands like Enon, Planes Mistaken For Stars, Agent Orange, Misfits, and meWithoutYou.  both paul and solomon were shredders, I miss playing with these dudes everyday.',
     bandcamp: '1413157771',
+    youTubeVideos: ['eQ1i1vq3-O8', 'nPYtQi6NPiU'],
   },
 ];
 

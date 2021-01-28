@@ -188,6 +188,7 @@ export const installationsData = [
       'assets/images/installations/project0/14.jpg',
       'assets/images/installations/project0/15.jpg',
       'assets/images/installations/project0/16.jpg',
+      'assets/images/installations/project0/17.jpg',
     ],
   },
   {
@@ -220,8 +221,7 @@ export const installationsData = [
     location: 'Disjecta - Portland, OR',
     description:
       "theWave was a showcase of artists who did a residency at PCC over the summer of 2019 where they worked directly with the Interactivity Department's multichannel speaker array Unity Gain.  I created a patch Max MSP and performed it live using a multi-slider midi controller, a hand built expression joystick, and various samples I collected over the years which included multiple conversations I had been apart of.  I titled the piece 'conversations'.  I used VBAP panners and split the conversations into various parts of the room so guests could walk around and listen in to conversations, but if they were in the middle of the room it would sound like a busy room.  I then integrated various multichannel delays, reverbs, and sample holds to give the guests a feeling of unease.  Some of the conversations were friendly and some of them were on dark subject matters such as finding a human body during search and rescue.  This was an incredibly rewarding experience that I am very thankful to have been a part of.",
-    // youTubeVideos: ['DwP0MY2JERw'],
-    // youTubeVideos: 'DwP0MY2JERw',
+    youTubeVideos: 'BA8iKDu39mA',
     github: 'https://github.com/mikeymasonic/theWave/',
     images: [
       'assets/images/installations/theWave/1.jpg',
@@ -234,6 +234,8 @@ export const installationsData = [
       'assets/images/installations/theWave/8.jpg',
       'assets/images/installations/theWave/9.jpg',
       'assets/images/installations/theWave/10.jpg',
+      'assets/images/installations/theWave/11.jpg',
+      'assets/images/installations/theWave/12.jpg',
     ],
   },
   {

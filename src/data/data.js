@@ -224,6 +224,7 @@ export const installationsData = [
     youTubeVideos: 'BA8iKDu39mA',
     github: 'https://github.com/mikeymasonic/theWave/',
     images: [
+      'assets/images/installations/theWave/0.jpg',
       'assets/images/installations/theWave/1.jpg',
       'assets/images/installations/theWave/2.jpg',
       'assets/images/installations/theWave/3.jpg',

@@ -89,7 +89,7 @@ html {
     @media screen and (max-width: 600px) {
       margin-top: 0rem;
       margin-left: 0%;
-      font-size: 0.85rem;
+      font-size: 0.75rem;
 
       font-weight: 100;
       letter-spacing: 0em;
@@ -98,7 +98,7 @@ html {
     @media screen and (max-width: 824px) {
       margin-top: 0rem;
       margin-left: 0%;
-      font-size: 0.85rem;
+      font-size: 0.75rem;
 
       font-weight: 100;
       letter-spacing: 0em;

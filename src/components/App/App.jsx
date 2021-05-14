@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from '../Header/Header';
 import Sidebar from '../Sidebar/Sidebar';
 import Bio from '../Bio/Bio';
@@ -13,20 +13,22 @@ import Learn from '../Learn/Learn';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
-      <Sidebar />
+    <Router>
+      <Route component={Header} />
+      <Route component={Sidebar} />
+      {/* <Header />
+      <Sidebar /> */}
       <Switch>
-        <Route exact path="/" component={Bio} />
-        <Route exact path="/apps" component={Apps} />
-        <Route exact path="/hardware" component={Hardware} />
-        <Route exact path="/installations" component={Installations} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/media" component={Media} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/learn" component={Learn} />
+        <Route path="/" exact component={Bio} />
+        <Route path="/apps" exact component={Apps} />
+        <Route path="/hardware" exact component={Hardware} />
+        <Route path="/installations" exact component={Installations} />
+        <Route path="/projects" exact component={Projects} />
+        <Route path="/media" exact component={Media} />
+        <Route path="/contact" exact component={Contact} />
+        <Route path="/learn" exact component={Learn} />
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 

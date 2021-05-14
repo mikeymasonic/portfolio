@@ -39,7 +39,7 @@
     font-size: 0.75rem;
 
     .PageName {
-      margin-top: 6.5rem;
+      /* margin-top: 6.5rem; */
       margin-bottom: -0.75rem;
     }
   }
@@ -56,7 +56,7 @@
 
   @media screen and (max-width: 360px) {
     margin-top: 10%;
-    font-size: 0.75rem;
+    font-size: 0.65rem;
 
     .PageName {
       margin-top: 7rem;
@@ -131,12 +131,14 @@
       margin-top: 1.5rem;
     }
     .BioText {
+
+      
       font-size: 0.9rem;
       margin-top: -2rem;
-    }
-
+        }
     img {
       width: 70%;
     }
   }
 }
+

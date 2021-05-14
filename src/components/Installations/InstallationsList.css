@@ -16,20 +16,26 @@
   }
 
   @media screen and (max-width: 640px) {
-    iframe {
-      width: 16rem;
+    .Video {
+      iframe {
+        width: 100%;
+      }
     }
   }
 
   @media screen and (max-width: 768px) {
-    iframe {
-      width: 18rem;
+    .Video {
+      iframe {
+        width: 100%;
+      }
     }
   }
 
   @media screen and (max-width: 824px) {
-    iframe {
-      width: 18rem;
+    .Video {
+      iframe {
+        width: 100%;
+      }
     }
   }
 

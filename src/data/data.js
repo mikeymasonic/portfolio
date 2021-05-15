@@ -1,5 +1,20 @@
 export const applications = [
   {
+    name: 'sonic blooming',
+    stack: 'React | p5.js | Web Audio API | Google Drive API',
+    description:
+      'Sonic Blooming is a guided meditation on the sound of movement, growth, and transformation in our environments both external and internal. At the time of year when the roses at the International Rose Test Garden are beginning to bloom, plants are generating more electricity than usual. For this project I was commissioned by my friend and fellow whateverSpace co-founder Crystal Cortez to create and design a website that visiters of the Portland International Test Garden can use to vibe with compositions created from various plants electrical impulse data read by sensors in a process called "Biodata Sonification" with fellow developer Jena Boehm. Crystal translated these impulses into musical pitches and sound that make up half of the composition you hear. The other half of the compositions are made up of field recordings collected in the space and added to the page throughout the month by patrons of the soundwalk via the Google Drive API.  There\'s also a cool audio visualizer on the page created with P5js and the Web Audio API.  This project was sponsored by ThirdAngleMusic and Portland Parks and Recreations',
+    github: 'https://github.com/mikeymasonic/sonicBlooming',
+    site: 'https://sonicblooming.com/',
+    images: [
+      'assets/images/apps/frqncy1.png',
+      'assets/images/apps/frqncy2.png',
+      'assets/images/apps/frqncy3.jpg',
+      'assets/images/apps/frqncy4.png',
+      'assets/images/apps/frqncy5.png',
+    ],
+  },
+  {
     name: 'frqncy.live',
     stack: 'Vue.js | Nuxt | Apollo | PostgreSQL | GraphQL | TensorFlow | Sanity',
     description:

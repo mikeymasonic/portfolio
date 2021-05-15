@@ -7,12 +7,12 @@ export const applications = [
     github: 'https://github.com/mikeymasonic/sonicBlooming',
     site: 'https://sonicblooming.com/',
     images: [
-      'assets/images/apps/frqncy1.png',
-      'assets/images/apps/frqncy2.png',
-      'assets/images/apps/frqncy3.jpg',
-      'assets/images/apps/frqncy4.png',
-      'assets/images/apps/frqncy5.png',
+      'assets/images/apps/sonicblooming1.png',
+      'assets/images/apps/sonicblooming2.png',
+      'assets/images/apps/sonicblooming3.png',
+      'assets/images/apps/sonicblooming4.png',
     ],
+    youTubeVideos: 'aV4qci7fPFE',
   },
   {
     name: 'frqncy.live',

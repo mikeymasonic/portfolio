@@ -82,9 +82,9 @@ const InstallationsList = ({
           {imageNodes}
         </AwesomeSlider>
       </section>
-
-      <section className={styles.Video}>
-        {youTubeVideos && (
+      {youTubeVideos && (
+        <section className={styles.Video}>
+     
           <iframe
             key={youTubeVideos}
             width="560"
@@ -94,9 +94,11 @@ const InstallationsList = ({
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-        )}
+        </section>
+      )}
 
-        {vimeoVideos && (
+      {vimeoVideos && (
+        <section className={styles.Video}>
           <iframe
             key={vimeoVideos}
             src={`https://player.vimeo.com/video/${vimeoVideos}`}
@@ -106,8 +108,9 @@ const InstallationsList = ({
             allow="autoplay; fullscreen"
             allowFullScreen
           ></iframe>
-        )}
-      </section>
+        </section>
+      )}
+    
     </section>
   );
 };

@@ -77,8 +77,9 @@ const AppsList = ({ name, stack, description, github, site, images, youTubeVideo
           {imageNodes}
         </AwesomeSlider>
       </section>
-      <section className={styles.Video}>
-        {youTubeVideos && (
+      {youTubeVideos && (
+        <section className={styles.Video}>
+       
           <iframe
             key={youTubeVideos}
             width="560"
@@ -88,8 +89,9 @@ const AppsList = ({ name, stack, description, github, site, images, youTubeVideo
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
-        )}
-      </section>
+     
+        </section>
+      )}
     </section>
   );
 };

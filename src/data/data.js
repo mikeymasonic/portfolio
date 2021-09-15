@@ -3,7 +3,7 @@ export const applications = [
     name: 'sonic blooming',
     stack: 'React | p5.js | Web Audio API | Google Drive API',
     description:
-      'Sonic Blooming is a guided meditation on the sound of movement, growth, and transformation in our environments both external and internal. At the time of year when the roses in the the International Rose Test Garden are beginning to bloom, plants are generating more energy than usual. For this project fellow developer Jena Boehm and I were commissioned by my friend and fellow whateverSpace co-founder Crystal Cortez to create and design a website that visiters of the Portland International Test Garden can use to vibe with compositions created from various plants electrical impulse data read by sensors in a process called "Biodata Sonification".  Crystal has translated these impulses into musical pitches and sound that make up half of the composition you will hear. The other half of the composition is made up of field recordings she\'s collected in the space over time. Soundwalkers are encouraged to dive deep into these soundscapes as they explore each garden and they also can upload sounds they hear and upload it on our site to a shared folder via the Google Drive API.  These uploads will then be incorporated into new tracks over the course of the month.  There\'s also a cool audio visualizer on the page created with P5js and the Web Audio API.  This project was sponsored by ThirdAngleMusic and Portland Parks and Recreations',
+      'Sonic Blooming is a guided meditation on the sound of movement, growth, and transformation in our environments both external and internal. At the time of year when the roses in the the International Rose Test Garden are beginning to bloom, plants are generating more energy than usual. For this project fellow developer Jena Boehm and I were commissioned by my friend and fellow whateverSpace co-founder Crystal Cortez to create and design a website that visiters of the Portland International Test Garden can use to vibe with compositions created from various plants electrical impulse data read by sensors in a process called "Biodata Sonification".  Crystal has translated these impulses into musical pitches and sound that make up half of the composition you will hear. The other half of the composition is made up of field recordings she has collected in the space over time. Soundwalkers are encouraged to dive deep into these soundscapes as they explore each garden and they also can upload sounds they hear and upload it on our site to a shared folder via the Google Drive API.  These uploads will then be incorporated into new tracks over the course of the month.  There\'s also a cool audio visualizer on the page created with P5js and the Web Audio API.  This project was sponsored by ThirdAngleMusic and Portland Parks and Recreations',
     github: 'https://github.com/mikeymasonic/sonicBlooming',
     site: 'https://sonicblooming.com/',
     images: [
@@ -162,7 +162,7 @@ export const applications = [
 
 export const bio = {
   bio:
-    'Human and software engineer with an interest in the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programing to bring everything together.  This pushes my interest what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
+    'Human and software engineer with an interest in the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programing to bring everything together.  This pushes my interest in what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
 };
 
 export const contact = {
@@ -173,7 +173,7 @@ export const contact = {
   whateverSpace: 'http://www.whateverSpace.org',
   whateverSpaceInsta: 'https://www.instagram.com/whateverSpacepdx',
   resume:
-    'https://drive.google.com/file/d/1JwuOnUpG0ZA3M3gzbSNtNZPJe8l-MzMy/view?usp=sharing',
+    'https://drive.google.com/file/d/1yU1In9SoVfBuWRR88y2EDLhs-0eCsV-E/view?usp=sharing',
 };
 
 export const installationsData = [
@@ -341,5 +341,9 @@ export const recordedBands = [
   {
     releaseName: "loose - 'hair cut'",
     bandcamp: '3535544007',
+  },
+  {
+    releaseName: "james grew - postscripts'",
+    bandcamp: '3600089540',
   },
 ];

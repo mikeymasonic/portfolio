@@ -16,7 +16,8 @@ export const applications = [
   },
   {
     name: 'frqncy.live',
-    stack: 'Vue.js | Nuxt | Apollo | PostgreSQL | GraphQL | TensorFlow | Sanity',
+    stack:
+      'Vue.js | Nuxt | Apollo | PostgreSQL | GraphQL | TensorFlow | Sanity',
     description:
       'frqncy is a commercial web application that uses WebRTC to create virtual video chat rooms with friends to watch concerts together, buy merchandise and virtually interact with bands.  I developed a robust system that uses machine learning to detect claps and cheers that broadcasts the audio and sends data to be used by lighting and visual effects artists in venues.  I also worked on frontend and backend elements of the page to create a seamless web interface for audience participants along with day to day decision making to build the app from the ground up.',
     site: 'https://frqncy.live/',
@@ -32,7 +33,7 @@ export const applications = [
     name: 'funding relief',
     stack: 'React | Express | PostgreSQL | Node.js | Cheerio Scraper',
     description:
-      'Built after the wildfires on the west coast in 2020 happened, I was trying to think of ways to help out people using my web development knowledge. The idea I came up with is simple and builds on the platform GoFundMe has already built. I wanted to create a space that let\'s people browse all of the current wildfire funds on the West Coast to learn more about about individuals and communities in need. You can can see detailed information about each fund and when you\'re ready can go directly to that funds GoFundMe page to donate. What makes the site a bit different is that I wanted to ensure funds that are the furthest from reaching their goal make it to the top of the page. That\'s why when you will always those who still need the most relief at the top of the page.  The site scrapes GoFundMe twice a day and updates our database to reflect the latest information.  What\'s great about this project is it is reusable for any type of GoFundMe campaign by just inputting a URL on our backend.',
+      "Built after the wildfires on the west coast in 2020 happened, I was trying to think of ways to help out people using my web development knowledge. The idea I came up with is simple and builds on the platform GoFundMe has already built. I wanted to create a space that let's people browse all of the current wildfire funds on the West Coast to learn more about about individuals and communities in need. You can can see detailed information about each fund and when you're ready can go directly to that funds GoFundMe page to donate. What makes the site a bit different is that I wanted to ensure funds that are the furthest from reaching their goal make it to the top of the page. That's why when you will always those who still need the most relief at the top of the page.  The site scrapes GoFundMe twice a day and updates our database to reflect the latest information.  What's great about this project is it is reusable for any type of GoFundMe campaign by just inputting a URL on our backend.",
     github: 'https://github.com/fundingRelief',
     site: 'http://fundingrelief.netlify.app/',
     images: [
@@ -57,7 +58,7 @@ export const applications = [
     name: 'shapeways',
     stack: 'React | TensorFlow | Magenta | ml5 | Web Audio API',
     description:
-      'Shapeways is a multimedia sandbox at the bleeding edge of art and technology. It\'s a real-time music and art generator that responds to your movements. It\'s an audiovisual composition shaped by the user, made possible by machine learning.',
+      "Shapeways is a multimedia sandbox at the bleeding edge of art and technology. It's a real-time music and art generator that responds to your movements. It's an audiovisual composition shaped by the user, made possible by machine learning.",
     github: 'https://github.com/whateverSpace/shapeways-frontend',
     site: 'https://shapeways.netlify.app/',
     images: [
@@ -161,8 +162,7 @@ export const applications = [
 ];
 
 export const bio = {
-  bio:
-    'Human and software engineer with an interest in the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programing to bring everything together.  This pushes my interest in what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
+  bio: 'Human and software engineer with an interest in the use of technologies and their relation to the human experience as conveyed through visual / sound installations and thoughtfully designed software applications.   I create immersive digital, visual, and sound art and experiment with sensors, micro-controllers, multi-channel audio, and programming to bring everything together.  This pushes my interest in what tech can be and how it can make you feel while bridging the intersection of technology and creative art.',
 };
 
 export const contact = {
@@ -282,7 +282,7 @@ export const media = [
   //     'michael romay(guitar, vocals), craig phillips(guitar)',
   //   description:
   //     'pretenser was a band created by myself any my homie craig.  we set out to create slow sad loud music in the vain of codeine and bedhead.  played some shows, recorded a couple of records (one is still unreleased).  Here is our first EP from around 2016',
-  //   bandcamp: '4267872102', 
+  //   bandcamp: '4267872102',
   //   youTubeVideos: 'RWYXh6USo8w',
   // },
   {
@@ -300,7 +300,7 @@ export const media = [
     bandName: 'no phone',
     yearsActive: '2011-2015',
     members:
-      'matt stangel(guitar, vocals), michael romay(bass), dan schuman(synth), michael griffith(synth), booth willson(drums)',
+      'matt stangel(guitar, vocals), michael romay(bass), dan schuman(synth), michael griffith(synth), booth wilson(drums)',
     description:
       'no phone was a real weird band that played in ridiculous time signatures.  it was a passion project created by matt stangel.  played some shows locally and recorded this ep below.',
     bandcamp: '2926175440',
